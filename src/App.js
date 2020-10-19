@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Landing from "./layout/Landing";
 import Nav from "./layout/components/Nav";
-import Footer from "./layout/components/Footer"
+import Footer from "./layout/components/Footer";
 
 function App() {
   return (

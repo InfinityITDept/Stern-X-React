@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import "./InfoCards.scss";
 
 export default class InfoCards extends Component {
     render() {
