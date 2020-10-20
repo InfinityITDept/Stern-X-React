@@ -1,6 +1,11 @@
 .Cards{
+    margin-top: 3%;
+}
+.Cards-all{
     display: flex;
     margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 .Cards-container {
     display: flex;
@@ -16,4 +21,10 @@
 
   .Cards-text-col {
       margin-left: 3%;
+  }
+
+  .Cards-hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   }

@@ -1,0 +1,31 @@
+.Reviews{
+    display: flex;
+}
+
+.Reviews-container{
+    display: flex;
+    max-width: 28%;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Reviews-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reviews-img{
+    width:100%
+}
+
+.Reviews-text-col{
+    margin-left: 3%;
+}
+
+.Reviews-hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
