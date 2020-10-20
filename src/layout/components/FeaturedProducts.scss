@@ -1,0 +1,37 @@
+.Featured-products-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Featured-text-col-right{
+    background-color: blanchedalmond;
+    padding-left: 25%;
+    padding-right: 18%;
+    padding-top: 28%;
+    padding-bottom: 28%;
+    z-index: -1 !important;
+    margin-left: -23%;
+}
+.Img-1{
+    width: 90%;
+    margin-left: -10%;
+    z-index: 10 !important;
+    position: relative;
+}
+
+.Featured-text-col-left{
+    background-color: blanchedalmond;
+    padding-left: 18%;
+    padding-right: 25%;
+    padding-top: 28%;
+    padding-bottom: 28%;
+    margin-right: -23%;
+    z-index: -1 !important;
+}
+
+.Img-2{
+    width: 90%;
+    margin-right: -10%;
+    z-index: 10 !important;
+    position: relative;
+}
