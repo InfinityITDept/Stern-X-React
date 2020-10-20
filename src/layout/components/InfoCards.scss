@@ -1,0 +1,19 @@
+.Cards{
+    display: flex;
+    margin-left: 2%;
+}
+.Cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 28%;
+    margin-left: 3%;
+  }
+
+  .Cards-img {
+      width: 100%;
+  }
+
+  .Cards-text-col {
+      margin-left: 3%;
+  }
