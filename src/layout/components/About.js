@@ -4,7 +4,7 @@ import "./About.scss";
 export default class About extends Component {
     render() {
         return (
-            <div>
+            <div className="About">
                 This is the About area
             </div>
         )

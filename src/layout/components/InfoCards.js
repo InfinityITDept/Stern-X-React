@@ -12,6 +12,7 @@ export default class InfoCards extends Component {
                 </div>
                 <div className="Cards-text-col">
                     <h1 className="Cards-title">Title</h1>
+                    <hr className="Cards-hr" />
                     <p className="Cards-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
                 </div>
             </div>
@@ -22,6 +23,7 @@ export default class InfoCards extends Component {
                 </div>
                 <div className="Cards-text-col">
                     <h1 className="Cards-title">Title</h1>
+                    <hr className="Cards-hr" />
                     <p className="Cards-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
                 </div>
             </div>
@@ -32,6 +34,7 @@ export default class InfoCards extends Component {
                 </div>
                 <div className="Cards-text-col">
                     <h1 className="Cards-title">Title</h1>
+                    <hr className="Cards-hr" />
                     <p className="Cards-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
                 </div>
             </div>
