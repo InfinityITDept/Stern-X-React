@@ -6,6 +6,7 @@ export default class FeaturedProducts extends Component {
     render() {
         return (
             <div className="Featured-products">
+                <h1 className="Featured-title-main">Featured Products</h1>
                 <div className="Featured-products-container">
                     <div className="Featured-img-col">
                         <img className="Img-1" src={Placeholder} alt="test" />
