@@ -1,6 +1,13 @@
+$light-base: #f7fcfd;
+$dark-base:  #15282f;
+$light-green: #c1ea00;
+$dark-green: #285056;
+$blue: #0ed2e9;
+
 .About{
     height: 500px;
-    background-color: #cccccc;
+    color: $light-base;
+    background-color: $dark-green;
 }
 
 .About-container{

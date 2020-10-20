@@ -1,4 +1,11 @@
+$light-base: #f7fcfd;
+$dark-base:  #15282f;// #221e2a;
+$light-green: #c1ea00;
+$dark-green: #285056;
+$blue: #0ed2e9;
+
 .Footer{
     height: 250px;
-    background-color: #e0e0e0
+    color: $light-base;
+    background-color: $dark-base;
 }

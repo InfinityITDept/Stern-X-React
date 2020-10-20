@@ -6,37 +6,27 @@ export default class InfoCards extends Component {
     render() {
         return (
             <div className="Cards">
-                <h1>Tips & Info</h1>
-                <div className="Cards-all">
-                    <div className="Cards-container">
+                <div className="row">
+                    <div className="Cards-container col-6">
                         <div className="Cards-img-col">
+                            <div className="line"></div>
                             <img className="Cards-img" src={Placeholder} alt="Placeholder" />
                         </div>
                         <div className="Cards-text-col">
-                            <h1 className="Cards-title">Title</h1>
-                            <hr className="Cards-hr" />
+                            <h1 className="Cards-title">Spread POSITIVITY</h1>
+                            <h1>NOT THE VIRUS</h1>
                             <p className="Cards-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
                         </div>
                     </div>
 
-                    <div className="Cards-container">
+                    <div className="Cards-container col-6">
                         <div className="Cards-img-col">
+                            <div className="line"></div>
                             <img className="Cards-img" src={Placeholder} alt="Placeholder" />
                         </div>
                         <div className="Cards-text-col">
-                            <h1 className="Cards-title">Title</h1>
-                            <hr className="Cards-hr" />
-                            <p className="Cards-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
-                        </div>
-                    </div>
-
-                    <div className="Cards-container">
-                        <div className="Cards-img-col">
-                            <img className="Cards-img" src={Placeholder} alt="Placeholder" />
-                        </div>
-                        <div className="Cards-text-col">
-                            <h1 className="Cards-title">Title</h1>
-                            <hr className="Cards-hr" />
+                            <h1 className="Cards-title">Spread POSITIVITY</h1>
+                            <h1>NOT THE VIRUS</h1>
                             <p className="Cards-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
                         </div>
                     </div>

@@ -12,7 +12,7 @@ export default class Reviews extends Component {
                             <img src={Placeholder} alt="alt" className="Reviews-img"/>
                         </div>
                         <div className="Reviews-text-col">
-                            <h1 className="Reviews-text-title">Title</h1>
+                            <h1 className="Reviews-text-title">Reviews</h1>
                             <hr className="Reviews-hr" />
                             <p className="Reviews-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
                         </div>
@@ -25,7 +25,7 @@ export default class Reviews extends Component {
                             <img src={Placeholder} alt="alt" className="Reviews-img"/>
                         </div>
                         <div className="Reviews-text-col">
-                            <h1 className="Reviews-text-title">Title</h1>
+                            <h1 className="Reviews-text-title">Reviews</h1>
                             <hr className="Reviews-hr" />
                             <p className="Reviews-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
                         </div>
@@ -38,7 +38,7 @@ export default class Reviews extends Component {
                             <img src={Placeholder} alt="alt" className="Reviews-img"/>
                         </div>
                         <div className="Reviews-text-col">
-                            <h1 className="Reviews-text-title">Title</h1>
+                            <h1 className="Reviews-text-title">Reviews</h1>
                             <hr className="Reviews-hr" />
                             <p className="Reviews-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
                         </div>

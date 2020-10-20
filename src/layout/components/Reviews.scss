@@ -1,4 +1,11 @@
+$light-base: #f7fcfd;
+$dark-base:  #15282f;
+$light-green: #c1ea00;
+$dark-green: #285056;
+$blue: #0ed2e9;
+
 .Reviews{
+    color: $dark-green;
     display: flex;
 }
 
@@ -25,7 +32,7 @@
 }
 
 .Reviews-hr{
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    border: 2px solid $light-green;
+    //color: $light-green;
+    //background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   }

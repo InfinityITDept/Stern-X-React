@@ -1,3 +1,5 @@
+$light-blue: #7deefb;
+
 .Featured-products-container{
     display: flex;
     align-items: center;
@@ -10,7 +12,7 @@
 }
 
 .Featured-text-col-right{
-    background-color: blanchedalmond;
+    background-color: $light-blue;
     padding-left: 25%;
     padding-right: 18%;
     padding-top: 28%;
@@ -26,7 +28,7 @@
 }
 
 .Featured-text-col-left{
-    background-color: blanchedalmond;
+    background-color: $light-blue;
     padding-left: 18%;
     padding-right: 25%;
     padding-top: 28%;

@@ -1,6 +1,16 @@
 
 @import "~bootstrap/scss/bootstrap.scss";
 
+$light-base: #f7fcfd;
+$dark-base:  #15282f;// #221e2a;
+$light-green: #c1ea00;
+$dark-green: #285056;
+$blue: #0ed2e9;
+
+body{
+  background-color: $light-base;
+}
+
 .App {
   text-align: center;
 }
