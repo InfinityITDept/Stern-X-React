@@ -5,7 +5,8 @@ import Placeholder from "./images/placeholder.jpg";
 export default class FeaturedProducts extends Component {
     render() {
         return (
-            <div className="Featured-products">
+            <div className="row">
+                <div className="col-12">
                 <h1 className="Featured-title-main">Featured Products</h1>
                 <div className="Featured-products-container">
                     <div className="Featured-img-col">
@@ -30,6 +31,8 @@ export default class FeaturedProducts extends Component {
                         <img className="Img-2" src={Placeholder} alt="test" />
                     </div>
                 </div>
+                </div>
+ 
             </div>
         )
     }
