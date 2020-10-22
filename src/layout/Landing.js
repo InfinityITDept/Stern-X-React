@@ -8,12 +8,14 @@ import Reviews from "./components/Reviews";
 export default class Landing extends Component {
     render() {
         return (
-            <div>
-                <Banner />
-                <Cards />
-                <FeaturedProducts />
-                <About />
-                <Reviews />
+            <div className="container-fluid">
+                <div className="row">
+                    <Banner />
+                    <Cards />
+                    <FeaturedProducts />
+                    <About />
+                    <Reviews />
+                </div>
             </div>
         )
     }

@@ -6,9 +6,8 @@ $blue: #0ed2e9;
 
 
 .Cards{
-    margin: 8% 0;
+    margin-bottom: 5%;
     color: $dark-green;
-    padding: 20px;
 }
 
 .Cards-container {
@@ -21,7 +20,7 @@ $blue: #0ed2e9;
     .line{
         width: 140%;
         height: 3px;
-        margin-left: 30px;
+        margin-left: 35px;
         background-color: #0ed2e9;
       }
       .Cards-img {
@@ -32,7 +31,6 @@ $blue: #0ed2e9;
 
 
   .Cards-text-col {
-      margin-left: 3%;
       h1{
           text-align: left;
       }
