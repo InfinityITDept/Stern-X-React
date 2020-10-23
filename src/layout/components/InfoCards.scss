@@ -6,7 +6,8 @@ $blue: #0ed2e9;
 
 
 .Cards{
-    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-bottom: 10%;
     color: $dark-green;
 }
 
@@ -33,9 +34,14 @@ $blue: #0ed2e9;
   .Cards-text-col {
       h1{
           text-align: left;
+          font-size: 45px;
       }
       p{
+        font-size: 28px;
         margin-top: 40px;
         text-align: left;
       }
   }
+    .Cards-description{
+        font-size: 30px;
+    }

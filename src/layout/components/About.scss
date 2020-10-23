@@ -5,24 +5,21 @@ $dark-green: #285056;
 $blue: #0ed2e9;
 
 .About{
-    height: 500px;
+    height: 550px;
     color: $light-base;
     background-color: $dark-green;
-    .About-paragraph{
-        font-size: 18px;
+    .About-container{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        .About-title{
+            margin-top: 1%;
+            margin-bottom: 2%;
+            font-size: 45px;
+        }
+        .About-paragraph{
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 25px;
+        }
     }
-}
-
-.About-container{
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.About-title{
-    margin-top: 6%;
-    margin-bottom: 2%;
-}
-.About-paragraph{
-    margin-left: 10%;
-    margin-right: 10%;
 }
