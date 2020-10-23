@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./Banner.scss";
 import Carousel from 'react-bootstrap/Carousel';
-import Last from "./images/Resize-01.jpg";
+import Last from "./images/SternTest-01.jpg";
 
 export default class Banner extends Component {
     render() {

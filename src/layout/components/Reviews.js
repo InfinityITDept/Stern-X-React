@@ -14,7 +14,7 @@ export default class Reviews extends Component {
                         <div className="Reviews-text-col">
                             <h1 className="Reviews-text-title">Reviews</h1>
                             <hr className="Reviews-hr" />
-                            <p className="Reviews-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
+                            <p className="Reviews-text-paragraph">“Easy to use and gentle on my hands! I keep an individual bottle with me whenever I am on the go.”</p>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ export default class Reviews extends Component {
                         <div className="Reviews-text-col">
                             <h1 className="Reviews-text-title">Reviews</h1>
                             <hr className="Reviews-hr" />
-                            <p className="Reviews-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
+                            <p className="Reviews-text-paragraph">“I originally tried this product at home and was well satisfied with it. I now keep a bottle in my desk at the office for my colleagues to use. I would definitely recommend it.”</p>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export default class Reviews extends Component {
                         <div className="Reviews-text-col">
                             <h1 className="Reviews-text-title">Reviews</h1>
                             <hr className="Reviews-hr" />
-                            <p className="Reviews-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, dui vel sollicitudin faucibus, ipsum magna vehicula augue, quis pulvinar urna justo nec mauris. Duis eu libero sed libero porta pharetra.</p>
+                            <p className="Reviews-text-paragraph">“I switched over to this product recently while looking for a strong solution to kill bacteria at home to keep my family and myself healthy. I did some research on the ingredients and I found this bleach to be one of the more effective ones to disinfect. I have been using it ever since.”</p>
                         </div>
                     </div>
                 </div>
