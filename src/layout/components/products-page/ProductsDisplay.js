@@ -20,10 +20,13 @@ export default class ProductsDisplay extends Component {
             <div className="Products">
 
                 <div className="Products-row">
-                <Card className="Products-card text-white" style={{ width: '26rem' }}>
-                <Card.Img src={Sanitizer13} alt="Card image" />
-                </Card>
-
+                    <div className="Products-card">
+                        <Card style={{ width: '26rem' }}>
+                        <Card.Img src={Sanitizer13} alt="Card image" />
+                        </Card>
+                        <h5>Hand Sanitizer</h5>
+                    </div>
+                    
                 <Card className=" Products-card text-white" style={{ width: '26rem' }}>
                 <Card.Img src={Sanitizer16} alt="Card image" />
                 </Card>
