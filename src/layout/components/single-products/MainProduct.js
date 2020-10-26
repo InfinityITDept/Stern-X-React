@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Splide, SplideSlide } from '@splidejs/react-splide';
 import Test from "../images/placeholder.jpg";
 import Slider from "react-slick";
 import "../../../../node_modules/slick-carousel/slick/slick-theme.scss";
