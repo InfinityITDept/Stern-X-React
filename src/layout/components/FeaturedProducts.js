@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import "./FeaturedProducts.scss";
 import Placeholder from "./images/placeholder.jpg";
+import Sanitizers from "./images/Sanitizers-01.jpg";
+import Bleach from "./images/Bleach-01.jpg";
 
 export default class FeaturedProducts extends Component {
     render() {
@@ -10,7 +12,7 @@ export default class FeaturedProducts extends Component {
                         <h1 className="Featured-title-main">Featured Products</h1>
                         <div className="Featured-products-container">
                             <div className="Featured-img-col">
-                                <img className="Img-1" src={Placeholder} alt="test" />
+                                <img className="Img-1" src={Sanitizers} alt="test" />
                             </div>
                             <div className="Featured-text-container">
                                 <div className="Featured-text-col-right">
@@ -28,7 +30,7 @@ export default class FeaturedProducts extends Component {
                                 </div>
                             </div>
                             <div className="Featured-img-col-2">
-                                <img className="Img-2" src={Placeholder} alt="test" />
+                                <img className="Img-2" src={Bleach} alt="test" />
                             </div>
                         </div>
             

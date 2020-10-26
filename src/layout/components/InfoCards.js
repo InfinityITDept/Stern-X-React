@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import "./InfoCards.scss";
 import Placeholder from "./images/placeholder.jpg";
+import Gloves from "./images/Gloves-01.jpg";
+import Hands from "./images/CleanHands-01.jpg";
 
 export default class InfoCards extends Component {
     render() {
@@ -10,7 +12,7 @@ export default class InfoCards extends Component {
                     <div className="Cards-container col-6">
                         <div className="Cards-img-col col-6">
                             <div className="line"></div>
-                            <img className="Cards-img" src={Placeholder} alt="Placeholder" />
+                            <img className="Cards-img" src={Gloves} alt="Placeholder" />
                         </div>
                         <div className="Cards-text-col col-6">
                             <h1 className="Cards-title">Frequently Asked</h1>
@@ -22,7 +24,7 @@ export default class InfoCards extends Component {
                     <div className="Cards-container col-6">
                         <div className="Cards-img-col col-6">
                             <div className="line"></div>
-                            <img className="Cards-img" src={Placeholder} alt="Placeholder" />
+                            <img className="Cards-img" src={Hands} alt="Placeholder" />
                         </div>
                         <div className="Cards-text-col col-6">
                             <h1 className="Cards-title">Spread POSITIVITY</h1>
