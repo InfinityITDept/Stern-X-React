@@ -7,11 +7,12 @@ import Nav from "./layout/components/Nav";
 import Footer from "./layout/components/Footer";
 import SingleProduct from './layout/SingleProduct';
 
+
 function App() {
   return (
     <div className="App">
       <Nav />
-      <SingleProduct />
+      <Landing />
       <Footer />
     </div>
   );

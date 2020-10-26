@@ -1,6 +1,8 @@
 .Products-row {
-  margin-bottom: 3%;
+  display: flex;
+  margin-bottom: 5%;
+  margin-left: 20%;
   .Products-card {
-    margin-right: 1.5%;
+    margin-right: 3%;
   }
 }

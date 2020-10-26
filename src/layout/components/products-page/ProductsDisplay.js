@@ -7,9 +7,9 @@ import Card from 'react-bootstrap/Card'
 export default class ProductsDisplay extends Component {
     render() {
         return (
-            <div className="Products container">
+            <div className="Products">
 
-                <div className="Products-row row">
+                <div className="Products-row">
                 <Card className="Products-card text-white" style={{ width: '23rem' }}>
                 <Card.Img src={Placeholder} alt="Card image" />
                 <Card.ImgOverlay>
@@ -38,7 +38,7 @@ export default class ProductsDisplay extends Component {
                 </Card>
                 </div>
 
-                <div className="Products-row row">
+                <div className="Products-row">
                 <Card className="Products-card text-white" style={{ width: '23rem' }}>
                 <Card.Img src={Placeholder} alt="Card image" />
                 <Card.ImgOverlay>

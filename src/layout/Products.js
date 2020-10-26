@@ -8,7 +8,6 @@ export default class Products extends Component {
     render() {
         return (
             <div>
-               <Banner/>
                <ProductsDisplay />
                <ProductsQuote />
             </div>
