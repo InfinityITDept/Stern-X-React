@@ -6,7 +6,7 @@ export default class Reviews extends Component {
     render() {
         return (
             <div className="Reviews">
-                <div className="Reviews-container">
+                <div className="Reviews-container col-12">
                     <div className="Reviews-col">
                         <div className="Reviews-img-col">
                             <img src={Placeholder} alt="alt" className="Reviews-img"/>
@@ -19,7 +19,7 @@ export default class Reviews extends Component {
                     </div>
                 </div>
 
-                <div className="Reviews-container">
+                <div className="Reviews-container col-12">
                     <div className="Reviews-col">
                         <div className="Reviews-img-col">
                             <img src={Placeholder} alt="alt" className="Reviews-img"/>
@@ -44,7 +44,7 @@ export default class Reviews extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
         )
     }
 }
