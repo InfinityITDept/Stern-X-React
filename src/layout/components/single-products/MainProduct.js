@@ -4,6 +4,10 @@ import Test from "../images/Product.jpg";
 import Slider from "react-slick";
 import "../../../../node_modules/slick-carousel/slick/slick-theme.scss";
 import "../../../../node_modules/slick-carousel/slick/slick.scss";
+import Sanitizer13 from "../images/single product images/Hand Sanitizer 13oz-01.jpg";
+import Thumb from "../images/thumbnails/1 (1).jpg";
+import Button from "react-bootstrap/Button";
+
 
 export default class MainProduct extends Component {
     constructor(props) {
@@ -23,23 +27,23 @@ export default class MainProduct extends Component {
     
       render() {
         return (
-          <div className="Main container">
+          <div className="Main">
           <div className="Slider-class">
             <Slider
               asNavFor={this.state.nav2}
               ref={slider => (this.slider1 = slider)}
             >
               <div className="img1">
-                <img src={Test} alt="Test" />
+                <img src={Sanitizer13} alt="Test" />
               </div>
-              <div className="img2">
-                <img src={Test} alt="Test" />
+              <div className="img1">
+              <img src={Sanitizer13} alt="Test" />
               </div>
-              <div className="img3">
-                <img src={Test} alt="Test" />
+              <div className="img1">
+              <img src={Sanitizer13} alt="Test" />
               </div>
-              <div className="img4">
-                <img src={Test} alt="Test" />
+              <div className="img1">
+              <img src={Sanitizer13} alt="Test" />
               </div>
 
             </Slider>
@@ -49,29 +53,35 @@ export default class MainProduct extends Component {
               slidesToShow={3}
               swipeToSlide={true}
               focusOnSelect={true}
+              className="Thumb-slider"
             >
               <div>
-                <h3>1</h3>
+                <img src={Thumb} alt="test"/>
               </div>
               <div>
-                <h3>2</h3>
+              <img src={Thumb} alt="test"/>
               </div>
               <div>
-                <h3>3</h3>
+              <img src={Thumb} alt="test"/>
               </div>
               <div>
-                <h3>4</h3>
+              <img src={Thumb} alt="test"/>
               </div>
             </Slider>
             </div>
             
             <div className="Main-list">
-              <h1>Title of the product goes here:</h1>
+              <h5>Stern-X</h5>
+              <h1>Hand Sanitizer</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus enim nec ipsum tempus fermentum fermentum nec massa. Etiam placerat turpis metus, eu vehicula est placerat eu. Donec suscipit mauris tincidunt metus tempor.</p>
             <ul>
-              <li>Hello</li>
-              <li>Hello</li>
-              <li>Hello</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tincidunt diam, eget molestie ante.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tincidunt diam, eget molestie ante.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tincidunt diam, eget molestie ante.</li>
             </ul>
+            <Button variant="primary" size="lg" block>
+              Find Store
+            </Button>
             </div>
 
           </div>

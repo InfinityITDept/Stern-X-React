@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./Banner.scss";
-import BannerImage from "./images/BannerProducts.png";
+import BannerImage from "./images/bannerbleach.png";
 
 export default class Banner extends Component {
     render() {

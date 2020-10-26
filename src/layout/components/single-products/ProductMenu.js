@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 export default class ProductMenu extends Component {
   render() {
     return (
-      <div>
+      <div className="Container">
         <Accordion>
           <Card>
             <Card.Header>

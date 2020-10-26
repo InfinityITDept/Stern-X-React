@@ -1,8 +1,36 @@
 
 .Main{
     display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
     .Slider-class{
-        width: 50%;
+        width: 40%;
+        margin-left: 8%;
     }
-    .Main-list{}
+    .Main-list{
+        text-align: left;
+        max-width: 40%;
+        p{
+            margin-top: 5%;
+        }
+        ul{
+            margin-top: 6%;
+            li{
+                margin-top: 3%;
+            }
+        }
+        Button{
+            margin-top: 8%;
+        }
+    }
+}
+.img1{
+    img{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+.Thumb-slider{
+    margin-left: 16%;
 }
