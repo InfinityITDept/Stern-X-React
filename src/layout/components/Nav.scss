@@ -3,6 +3,7 @@
 nav{
     background-color: #6de5eb;
     .navbar-brand, .navbar-nav > .nav-link{
-        color: $dark-base;
+        color: black !important;
+        font-weight: 600;
     }
 }

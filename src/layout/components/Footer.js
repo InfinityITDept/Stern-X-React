@@ -15,11 +15,10 @@ export default class Footer extends Component {
                     <img src={Logo} alt="Logo" />
                 </div>
                 <div className="Footer-column2">
-                    <h3>Menu</h3>
                     <div className="Footer-links">
-                        <Link to="/"><p>HOME</p></Link>
-                        <Link to="/products"><p>PRODUCTS</p></Link>
-                        <Link to="/soon"><p>FAQ</p></Link>
+                        <Link to="/" className="home-link">HOME</Link>
+                        <Link to="/products" className="products-link">PRODUCTS</Link>
+                        <Link to="/soon" className="faq-link">FAQ</Link>
                     </div>
                 </div>
                 <div className="Footer-column3">
