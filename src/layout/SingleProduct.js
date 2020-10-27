@@ -9,7 +9,6 @@ export default class SingleProduct extends Component {
             <div>
                 <Main />
                 <Menu />
-                <Map />
             </div>
         )
     }

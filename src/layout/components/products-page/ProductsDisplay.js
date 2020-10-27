@@ -25,37 +25,81 @@ export default class ProductsDisplay extends Component {
                         <Card.Img src={Sanitizer13} alt="Card image" />
                         </Card>
                         <h5>Hand Sanitizer</h5>
+                        <Button variant="primary" size="lg">
+                        Large button
+                        </Button>{' '}
                     </div>
-                    
-                <Card className=" Products-card text-white" style={{ width: '26rem' }}>
-                <Card.Img src={Sanitizer16} alt="Card image" />
-                </Card>
-
-                <Card className="Products-card text-white" style={{ width: '26rem' }}>
-                <Card.Img src={Sanitizer64} alt="Card image" />
-                </Card>
-
-                <Card className="Products-card text-white" style={{ width: '26rem' }}>
-                <Card.Img src={SanitizerLiquid} alt="Card image" />
-                </Card>
+                    <div className="Products-card">
+                        <Card className=" Products-card text-white" style={{ width: '26rem' }}>
+                        <Card.Img src={Sanitizer16} alt="Card image" />
+                        </Card>
+                        <h5>Hand Sanitizer</h5>
+                        <Button variant="primary" size="lg">
+                        Large button
+                        </Button>{' '}
+                    </div>
+                
+                    <div className="Products-card">
+                        <Card className="Products-card text-white" style={{ width: '26rem' }}>
+                        <Card.Img src={Sanitizer64} alt="Card image" />
+                        </Card>
+                        <h5>Hand Sanitizer</h5>
+                        <Button variant="primary" size="lg">
+                        Large button
+                        </Button>{' '}
+                    </div>
+                    <div className="Products-card">
+                        <Card className="Products-card text-white" style={{ width: '26rem' }}>
+                        <Card.Img src={SanitizerLiquid} alt="Card image" />
+                        </Card>
+                        <h5>Hand Sanitizer</h5>
+                        <Button variant="primary" size="lg">
+                        Large button
+                        </Button>{' '}
+                    </div>
                 </div>
 
                 <div className="Products-row">
+
+                <div className="Products-card">
                 <Card className="Products-card text-white" style={{ width: '26rem' }}>
                 <Card.Img src={RegBleach} alt="Card image" />
                 </Card>
+                <h5>Bleach</h5>
+                <Button variant="primary" size="lg">
+                Large button
+                </Button>{' '}
+                </div>
 
+                <div className="Products-card">
                 <Card className=" Products-card text-white" style={{ width: '26rem' }}>
                 <Card.Img src={XtraBleach} alt="Card image" />
                 </Card>
+                <h5>Bleach</h5>
+                <Button variant="primary" size="lg">
+                Large button
+                </Button>{' '}
+                </div>
 
+                <div className="Products-card">
                 <Card className="Products-card text-white" style={{ width: '26rem' }}>
                 <Card.Img src={Lavander} alt="Card image" />
                 </Card>
+                <h5>Bleach</h5>
+                <Button variant="primary" size="lg">
+                Large button
+                </Button>{' '}
+                </div>
 
+                <div className="Products-card">
                 <Card className="Products-card text-white" style={{ width: '26rem' }}>
                 <Card.Img src={Lemon} alt="Card image" />
                 </Card>
+                <h5>Bleach</h5>
+                <Button variant="primary" size="lg">
+                Large button
+                </Button>{' '}
+                </div>
                 </div>
             </div>
         )

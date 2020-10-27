@@ -15,9 +15,9 @@ export default class Footer extends Component {
                 <div className="Footer-column2">
                     <h3>Menu</h3>
                     <div className="Footer-links">
-                        <a href="#"><p>This is a link</p></a>
-                        <a href="#"><p>This is a link</p></a>
-                        <a href="#"><p>This is a link</p></a>
+                        <a href="#"><p>HOME</p></a>
+                        <a href="#"><p>PRODUCTS</p></a>
+                        <a href="#"><p>FAQ</p></a>
                     </div>
                 </div>
                 <div className="Footer-column3">
