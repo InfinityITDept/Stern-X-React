@@ -15,9 +15,9 @@ export default class InfoCards extends Component {
                             <img className="Cards-img" src={Gloves} alt="Placeholder" />
                         </div>
                         <div className="Cards-text-col col-6">
-                            <h1 className="Cards-title">Frequently Asked</h1>
-                            <h1>Questions</h1>
-                            <p className="Cards-description">Review our frequently asked questions and learn more about our products.</p>
+                            <h1 className="Cards-title">Help Flatten the</h1>
+                            <h1>Curve</h1>
+                            <p className="Cards-description">Our line of products are essential to keep your home, office and surfaces free of germs.</p>
                         </div>
                     </div>
 
@@ -27,8 +27,8 @@ export default class InfoCards extends Component {
                             <img className="Cards-img" src={Hands} alt="Placeholder" />
                         </div>
                         <div className="Cards-text-col col-6">
-                            <h1 className="Cards-title">Spread POSITIVITY</h1>
-                            <h1>NOT THE VIRUS</h1>
+                            <h1 className="Cards-title">Spread Positivity</h1>
+                            <h1>Not the Virus</h1>
                             <p className="Cards-description">Learn more about how our products help combat the spread of Covid-19.</p>
                         </div>
                     </div>

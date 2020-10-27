@@ -1,5 +1,5 @@
 .div-1{
-    height: 650px;
+    height: 850px;
     background: rgb(183,245,249); 
     background: radial-gradient(circle, rgba(183,245,249,1) 0%, rgba(183,245,249,1) 0%, rgba(97,227,233,1) 100%);
 }
@@ -75,4 +75,8 @@
         margin-top: 40px;
         text-align: center;
     }
+}
+
+.carousel-inner{
+    margin-top: 5%;
 }
