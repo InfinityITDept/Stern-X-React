@@ -18,7 +18,7 @@ export default class ProductsDisplay extends Component {
     render() {
         return (
             <div className="Products">
-
+                <h1>All Products</h1>
                 <div className="Products-row">
                     <div className="Products-card">
                         <Card style={{ width: '26rem' }}>
@@ -26,7 +26,7 @@ export default class ProductsDisplay extends Component {
                         </Card>
                         <h5>Hand Sanitizer 13oz</h5>
                         <Link to="/single-product">
-                            <Button variant="primary" size="lg">
+                            <Button variant="warning" size="md">
                             More Info
                             </Button>{' '}
                         </Link>
@@ -37,7 +37,7 @@ export default class ProductsDisplay extends Component {
                         </Card>
                         <h5>Hand Sanitizer 16oz</h5>
                         <Link to="/single-product">
-                            <Button variant="primary" size="lg">
+                            <Button variant="warning" size="md">
                             More Info
                             </Button>{' '}
                         </Link>
@@ -49,7 +49,7 @@ export default class ProductsDisplay extends Component {
                         </Card>
                         <h5>Hand Sanitizer 64oz</h5>
                         <Link to="/single-product">
-                            <Button variant="primary" size="lg">
+                            <Button variant="warning" size="md">
                             More Info
                             </Button>{' '}
                         </Link>
@@ -60,7 +60,7 @@ export default class ProductsDisplay extends Component {
                         </Card>
                         <h5>Liquid Hand Sanitizer</h5>
                         <Link to="/single-product">
-                            <Button variant="primary" size="lg">
+                            <Button variant="warning" size="md">
                             More Info
                             </Button>{' '}
                         </Link>
@@ -75,7 +75,7 @@ export default class ProductsDisplay extends Component {
                 </Card>
                 <h5>Regular Strength Bleach</h5>
                 <Link to="/single-product">
-                    <Button variant="primary" size="lg">
+                    <Button variant="warning" size="md">
                     More Info
                     </Button>{' '}
                 </Link>
@@ -87,7 +87,7 @@ export default class ProductsDisplay extends Component {
                 </Card>
                 <h5>Extra Strength Bleach</h5>
                 <Link to="/single-product">
-                    <Button variant="primary" size="lg">
+                    <Button variant="warning" size="md">
                     More Info
                     </Button>{' '}
                 </Link>
@@ -99,7 +99,7 @@ export default class ProductsDisplay extends Component {
                 </Card>
                 <h5>Lavender Scent Bleach</h5>
                 <Link to="/single-product">
-                <Button variant="primary" size="lg">
+                <Button variant="warning" size="md">
                     More Info
                     </Button>{' '}
                 </Link>
@@ -111,7 +111,7 @@ export default class ProductsDisplay extends Component {
                 </Card>
                 <h5>Lemon Scent Bleach</h5>
                 <Link to="/single-product">
-                <Button variant="primary" size="lg">
+                <Button variant="warning" size="md">
                     More Info
                     </Button>{' '}
                 </Link>
