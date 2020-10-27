@@ -21,21 +21,24 @@ export default class ProductsDisplay extends Component {
                 <h1>All Products</h1>
                 <div className="Products-row">
                     <div className="Products-card">
-                        <Card style={{ width: '26rem' }}>
-                        <Card.Img src={Sanitizer13} alt="Card image" />
-                        </Card>
-                        <h5>Hand Sanitizer 13oz</h5>
+                        <img src={Sanitizer13} alt="Card image" />
+                        <div className="Card-text">
+                            <h5>Hand Sanitizer 13oz</h5>
+                            <p>Stern-X&trade;</p>
+                        </div>
                         <Link to="/single-product">
                             <Button variant="warning" size="md">
                             More Info
                             </Button>{' '}
                         </Link>
                     </div>
+
                     <div className="Products-card">
-                        <Card className=" Products-card text-white" style={{ width: '26rem' }}>
-                        <Card.Img src={Sanitizer16} alt="Card image" />
-                        </Card>
-                        <h5>Hand Sanitizer 16oz</h5>
+                        <img src={Sanitizer16} alt="Card image" />
+                        <div className="Card-text">
+                            <h5>Hand Sanitizer 16oz</h5>
+                            <p>Stern-X&trade;</p>
+                        </div>
                         <Link to="/single-product">
                             <Button variant="warning" size="md">
                             More Info
@@ -44,10 +47,11 @@ export default class ProductsDisplay extends Component {
                     </div>
                 
                     <div className="Products-card">
-                        <Card className="Products-card text-white" style={{ width: '26rem' }}>
-                        <Card.Img src={Sanitizer64} alt="Card image" />
-                        </Card>
-                        <h5>Hand Sanitizer 64oz</h5>
+                        <img src={Sanitizer64} alt="Card image" />
+                        <div className="Card-text">
+                            <h5>Hand Sanitizer 64oz</h5>
+                            <p>Stern-X&trade;</p>
+                        </div>
                         <Link to="/single-product">
                             <Button variant="warning" size="md">
                             More Info
@@ -55,10 +59,11 @@ export default class ProductsDisplay extends Component {
                         </Link>
                     </div>
                     <div className="Products-card">
-                        <Card className="Products-card text-white" style={{ width: '26rem' }}>
-                        <Card.Img src={SanitizerLiquid} alt="Card image" />
-                        </Card>
-                        <h5>Liquid Hand Sanitizer</h5>
+                        <img src={SanitizerLiquid} alt="Card image" />
+                        <div className="Card-text">
+                            <h5>Liquid Hand Sanitizer</h5>
+                            <p>Stern-X&trade;</p>
+                        </div>
                         <Link to="/single-product">
                             <Button variant="warning" size="md">
                             More Info
@@ -70,10 +75,11 @@ export default class ProductsDisplay extends Component {
                 <div className="Products-row">
 
                 <div className="Products-card">
-                <Card className="Products-card text-white" style={{ width: '26rem' }}>
-                <Card.Img src={RegBleach} alt="Card image" />
-                </Card>
-                <h5>Regular Strength Bleach</h5>
+                <img src={RegBleach} alt="Card image" />
+                    <div className="Card-text">
+                        <h5>Regular Strength Bleach</h5>
+                        <p>Stern-X&trade;</p>
+                    </div>
                 <Link to="/single-product">
                     <Button variant="warning" size="md">
                     More Info
@@ -82,10 +88,11 @@ export default class ProductsDisplay extends Component {
                 </div>
 
                 <div className="Products-card">
-                <Card className=" Products-card text-white" style={{ width: '26rem' }}>
-                <Card.Img src={XtraBleach} alt="Card image" />
-                </Card>
-                <h5>Extra Strength Bleach</h5>
+                <img src={XtraBleach} alt="Card image" />
+                <div className="Card-text">
+                        <h5>Extra Strength Bleach</h5>
+                        <p>Stern-X&trade;</p>
+                    </div>
                 <Link to="/single-product">
                     <Button variant="warning" size="md">
                     More Info
@@ -94,10 +101,11 @@ export default class ProductsDisplay extends Component {
                 </div>
 
                 <div className="Products-card">
-                <Card className="Products-card text-white" style={{ width: '26rem' }}>
-                <Card.Img src={Lavander} alt="Card image" />
-                </Card>
-                <h5>Lavender Scent Bleach</h5>
+                <img src={Lavander} alt="Card image" />
+                <div className="Card-text">
+                        <h5>Lavender Scent Bleach</h5>
+                        <p>Stern-X&trade;</p>
+                    </div>
                 <Link to="/single-product">
                 <Button variant="warning" size="md">
                     More Info
@@ -106,10 +114,11 @@ export default class ProductsDisplay extends Component {
                 </div>
 
                 <div className="Products-card">
-                <Card className="Products-card text-white" style={{ width: '26rem' }}>
-                <Card.Img src={Lemon} alt="Card image" />
-                </Card>
-                <h5>Lemon Scent Bleach</h5>
+                <img src={Lemon} alt="Card image" />
+                <div className="Card-text">
+                        <h5>Lemon Scent Bleach</h5>
+                        <p>Stern-X&trade;</p>
+                    </div>
                 <Link to="/single-product">
                 <Button variant="warning" size="md">
                     More Info

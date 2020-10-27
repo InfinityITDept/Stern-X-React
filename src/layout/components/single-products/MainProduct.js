@@ -79,7 +79,7 @@ export default class MainProduct extends Component {
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tincidunt diam, eget molestie ante.</li>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tincidunt diam, eget molestie ante.</li>
             </ul>
-            <Button variant="primary" size="lg" block>
+            <Button variant="warning" size="lg" block>
               Find Store
             </Button>
             </div>
