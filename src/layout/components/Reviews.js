@@ -6,7 +6,7 @@ export default class Reviews extends Component {
     render() {
         return (
             <div className="Reviews">
-                <div className="Reviews-container col-12">
+                <div className="Reviews-container">
                     <div className="Reviews-col">
                         <div className="Reviews-img-col">
                             <img src={Placeholder} alt="alt" className="Reviews-img"/>
@@ -19,7 +19,7 @@ export default class Reviews extends Component {
                     </div>
                 </div>
 
-                <div className="Reviews-container col-12">
+                <div className="Reviews-container">
                     <div className="Reviews-col">
                         <div className="Reviews-img-col">
                             <img src={Placeholder} alt="alt" className="Reviews-img"/>
@@ -40,7 +40,7 @@ export default class Reviews extends Component {
                         <div className="Reviews-text-col">
                             <h1 className="Reviews-text-title">Reviews</h1>
                             <hr className="Reviews-hr" />
-                            <p className="Reviews-text-paragraph">“I switched over to this product recently while looking for a strong solution to kill bacteria at home to keep my family and myself healthy. I did some research on the ingredients and I found this bleach to be one of the more effective ones to disinfect. I have been using it ever since.”</p>
+                            <p className="Reviews-text-paragraph">“I switched over to this product recently while looking for a strong solution to kill bacteria at home. Doing research on the ingredients I found this bleach to be one of the more effective ones to disinfect.”</p>
                         </div>
                     </div>
                 </div>

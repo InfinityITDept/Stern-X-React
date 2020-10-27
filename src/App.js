@@ -12,6 +12,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import ComingSoon from "./layout/ComingSoon";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/" component={Landing} />
           <Route exact path="/products" component={Products} />
           <Route exact path="/single-product" component={SingleProduct} />
+          <Route exact path="/soon" component={ComingSoon} />
       </Switch>
       <Footer />
       </Router>

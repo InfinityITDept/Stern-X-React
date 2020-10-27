@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import "./Footer.scss";
 import Logo from "./images/logo200x60.png";
 import { GrFacebookOption, GrInstagram, GrTwitter} from 'react-icons/gr';
+import {Link} from "react-router-dom";
+
 
 
 export default class Footer extends Component {
@@ -15,9 +17,9 @@ export default class Footer extends Component {
                 <div className="Footer-column2">
                     <h3>Menu</h3>
                     <div className="Footer-links">
-                        <a href="#"><p>HOME</p></a>
-                        <a href="#"><p>PRODUCTS</p></a>
-                        <a href="#"><p>FAQ</p></a>
+                        <Link to="/"><p>HOME</p></Link>
+                        <Link to="/products"><p>PRODUCTS</p></Link>
+                        <Link to="/soon"><p>FAQ</p></Link>
                     </div>
                 </div>
                 <div className="Footer-column3">

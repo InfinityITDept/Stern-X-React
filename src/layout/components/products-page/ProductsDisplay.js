@@ -11,7 +11,7 @@ import RegBleach from "../images/single product images/Bleach Regular-01.jpg";
 import XtraBleach from "../images/single product images/Bleach Extra Strength-01.jpg";
 import Lavander from "../images/single product images/Bleach Lavender-01.jpg";
 import Lemon from "../images/single product images/Bleach Lemon-01.jpg";
-
+import {Link} from "react-router-dom";
 
 
 export default class ProductsDisplay extends Component {
@@ -24,38 +24,46 @@ export default class ProductsDisplay extends Component {
                         <Card style={{ width: '26rem' }}>
                         <Card.Img src={Sanitizer13} alt="Card image" />
                         </Card>
-                        <h5>Hand Sanitizer</h5>
-                        <Button variant="primary" size="lg">
-                        Large button
-                        </Button>{' '}
+                        <h5>Hand Sanitizer 13oz</h5>
+                        <Link to="/single-product">
+                            <Button variant="primary" size="lg">
+                            More Info
+                            </Button>{' '}
+                        </Link>
                     </div>
                     <div className="Products-card">
                         <Card className=" Products-card text-white" style={{ width: '26rem' }}>
                         <Card.Img src={Sanitizer16} alt="Card image" />
                         </Card>
-                        <h5>Hand Sanitizer</h5>
-                        <Button variant="primary" size="lg">
-                        Large button
-                        </Button>{' '}
+                        <h5>Hand Sanitizer 16oz</h5>
+                        <Link to="/single-product">
+                            <Button variant="primary" size="lg">
+                            More Info
+                            </Button>{' '}
+                        </Link>
                     </div>
                 
                     <div className="Products-card">
                         <Card className="Products-card text-white" style={{ width: '26rem' }}>
                         <Card.Img src={Sanitizer64} alt="Card image" />
                         </Card>
-                        <h5>Hand Sanitizer</h5>
-                        <Button variant="primary" size="lg">
-                        Large button
-                        </Button>{' '}
+                        <h5>Hand Sanitizer 64oz</h5>
+                        <Link to="/single-product">
+                            <Button variant="primary" size="lg">
+                            More Info
+                            </Button>{' '}
+                        </Link>
                     </div>
                     <div className="Products-card">
                         <Card className="Products-card text-white" style={{ width: '26rem' }}>
                         <Card.Img src={SanitizerLiquid} alt="Card image" />
                         </Card>
-                        <h5>Hand Sanitizer</h5>
-                        <Button variant="primary" size="lg">
-                        Large button
-                        </Button>{' '}
+                        <h5>Liquid Hand Sanitizer</h5>
+                        <Link to="/single-product">
+                            <Button variant="primary" size="lg">
+                            More Info
+                            </Button>{' '}
+                        </Link>
                     </div>
                 </div>
 
@@ -65,40 +73,48 @@ export default class ProductsDisplay extends Component {
                 <Card className="Products-card text-white" style={{ width: '26rem' }}>
                 <Card.Img src={RegBleach} alt="Card image" />
                 </Card>
-                <h5>Bleach</h5>
-                <Button variant="primary" size="lg">
-                Large button
-                </Button>{' '}
+                <h5>Regular Strength Bleach</h5>
+                <Link to="/single-product">
+                    <Button variant="primary" size="lg">
+                    More Info
+                    </Button>{' '}
+                </Link>
                 </div>
 
                 <div className="Products-card">
                 <Card className=" Products-card text-white" style={{ width: '26rem' }}>
                 <Card.Img src={XtraBleach} alt="Card image" />
                 </Card>
-                <h5>Bleach</h5>
-                <Button variant="primary" size="lg">
-                Large button
-                </Button>{' '}
+                <h5>Extra Strength Bleach</h5>
+                <Link to="/single-product">
+                    <Button variant="primary" size="lg">
+                    More Info
+                    </Button>{' '}
+                </Link>
                 </div>
 
                 <div className="Products-card">
                 <Card className="Products-card text-white" style={{ width: '26rem' }}>
                 <Card.Img src={Lavander} alt="Card image" />
                 </Card>
-                <h5>Bleach</h5>
+                <h5>Lavender Scent Bleach</h5>
+                <Link to="/single-product">
                 <Button variant="primary" size="lg">
-                Large button
-                </Button>{' '}
+                    More Info
+                    </Button>{' '}
+                </Link>
                 </div>
 
                 <div className="Products-card">
                 <Card className="Products-card text-white" style={{ width: '26rem' }}>
                 <Card.Img src={Lemon} alt="Card image" />
                 </Card>
-                <h5>Bleach</h5>
+                <h5>Lemon Scent Bleach</h5>
+                <Link to="/single-product">
                 <Button variant="primary" size="lg">
-                Large button
-                </Button>{' '}
+                    More Info
+                    </Button>{' '}
+                </Link>
                 </div>
                 </div>
             </div>
