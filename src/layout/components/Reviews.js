@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import "./Reviews.scss";
 import Placeholder from "./images/placeholder.jpg";
+import Headshot1 from "./images/Headshot1.jpg";
+import Headshot2 from "./images/Headshot2.jpg";
+import Headshot3 from "./images/Headshot3.jpg";
 
 export default class Reviews extends Component {
     render() {
@@ -9,7 +12,7 @@ export default class Reviews extends Component {
                 <div className="Reviews-container">
                     <div className="Reviews-col">
                         <div className="Reviews-img-col">
-                            <img src={Placeholder} alt="alt" className="Reviews-img"/>
+                            <img src={Headshot2} alt="alt" className="Reviews-img"/>
                         </div>
                         <div className="Reviews-text-col">
                             <h1 className="Reviews-text-title">Reviews</h1>
@@ -22,7 +25,7 @@ export default class Reviews extends Component {
                 <div className="Reviews-container">
                     <div className="Reviews-col">
                         <div className="Reviews-img-col">
-                            <img src={Placeholder} alt="alt" className="Reviews-img"/>
+                            <img src={Headshot3} alt="alt" className="Reviews-img"/>
                         </div>
                         <div className="Reviews-text-col">
                             <h1 className="Reviews-text-title">Reviews</h1>
@@ -35,7 +38,7 @@ export default class Reviews extends Component {
                 <div className="Reviews-container">
                     <div className="Reviews-col">
                         <div className="Reviews-img-col">
-                            <img src={Placeholder} alt="alt" className="Reviews-img"/>
+                            <img src={Headshot1} alt="alt" className="Reviews-img"/>
                         </div>
                         <div className="Reviews-text-col">
                             <h1 className="Reviews-text-title">Reviews</h1>
