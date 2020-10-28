@@ -38,8 +38,11 @@
 @media only screen and (max-width: 600px) {
     .Main{
         display: inline;
+        overflow-x: hidden;
         .Slider-class{
-            width: 90%;
+            margin-top: 10%;
+            width: 85%;
+            margin-bottom: 10%;
         }
         .Main-list{
             max-width: 85%;

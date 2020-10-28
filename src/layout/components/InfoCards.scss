@@ -50,25 +50,20 @@ $blue: #0ed2e9;
 
     @media only screen and (max-width: 500px) {
         .Cards{
-            margin-top: 9%;
-            margin-bottom: 10%;
-            color: $dark-green;
-            margin-left: 1%;
+            display: inline;
+            overflow: hidden;
+            margin-left: 10%;
         }
-        
         .Cards-container {
             display: inline;
-            justify-content: center;
-            margin-left: 10%;
+
           }
         
           .Cards-img-col{
-              margin-top: 55px;
             .line{
-                display: none;
+                
               }
               .Cards-img {
-                  margin-top: 10px;
               }
           }
         

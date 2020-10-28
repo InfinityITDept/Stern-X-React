@@ -73,7 +73,6 @@ $light-blue: #7deefb;
 
         .Featured-products-container{
         display: inline;
-
         margin-left: 0%;
         margin-right: 0%;
             .Featured-text-col-right{  
@@ -106,8 +105,7 @@ $light-blue: #7deefb;
             }
             .Img-2{
                 width: 80%;
-                position: block;
-                display: inline;
+                position: absolute;
             }
         }
     }
