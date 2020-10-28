@@ -72,3 +72,73 @@ $blue: #0ed2e9;
         margin-top: 2%;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .Footer{
+        height: 600px;
+        color: $light-base;
+        background-color: #acf1f5;
+        color: black;
+        .Footer-container{
+            display: inline;
+            .Footer-logo{
+                img{
+                    margin-top: 12%;
+                    width: 60%;
+                    margin-right: 20%;
+                }
+            }
+            .Footer-column2{
+                margin-top: 2%;
+                margin-left: 4%;
+                .Footer-links{
+                    margin-top: 5%;
+                    .home-link{
+                        text-decoration: none;
+                        color: black;
+                        display: block;
+                        margin-bottom: 5%;
+                    }
+                    .products-link{
+                        text-decoration: none;
+                        color: black;
+                        display: block;
+                        margin-bottom: 5%;
+                    }
+                    .faq-link{
+                        text-decoration: none;
+                        color: black;
+                        display: block;
+                        margin-bottom: 12%;
+                    }
+        
+                }
+    
+            }
+            .Footer-column3{
+                margin-top: 2%;
+                margin-left: 4%;
+                margin-bottom: 15%;
+                .Footer-icons{
+                    display: flex;
+                    margin-top: 5%;
+                    font-size: 40px;
+                    margin-left: 23%;
+                    .Facebook{
+                        margin-right: 5%;
+                    }
+                    .Instagram{
+                        margin-left: 5%;
+                        margin-right: 5%;
+                    }
+                    .Twitter{
+                        margin-left: 7%;
+                    }
+                }
+            }
+        }
+        .Footer-rights{
+            margin-top: 15%;
+        }
+    }
+}

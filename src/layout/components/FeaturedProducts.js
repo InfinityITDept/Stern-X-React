@@ -13,7 +13,7 @@ export default class FeaturedProducts extends Component {
 
                         <h1 className="Featured-title-main">Featured Products</h1>
                         <div className="Featured-products-container">
-                            <div className="Featured-img-col">
+                            <div>
                                 <img className="Img-1" src={Sanitizers} alt="test" />
                             </div>
                             <div className="Featured-text-container">
@@ -30,6 +30,7 @@ export default class FeaturedProducts extends Component {
                         </div>
 
                         <div className="Featured-products-container2">
+                                <img className="Img-2" src={Bleach} alt="test" />
                             <div className="Featured-text-container-2">
                                 <div className="Featured-text-col-left">
                                     <h2 className="Featured-title">Bleach Solutions</h2>
@@ -41,15 +42,10 @@ export default class FeaturedProducts extends Component {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="Featured-img-col-2">
-                                <img className="Img-2" src={Bleach} alt="test" />
-                            </div>
+
                         </div>
             
                     </div>
         )
     }
-    /*
-    
-    */
 }

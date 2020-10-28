@@ -9,7 +9,7 @@ export default class InfoCards extends Component {
         return (
             <div className="Cards">
                 <div className="row">
-                    <div className="Cards-container col-6">
+                    <div className="Cards-container col-lg-6 col-xl-6">
                         <div className="Cards-img-col col-6">
                             <div className="line"></div>
                             <img className="Cards-img" src={Gloves} alt="Placeholder" />

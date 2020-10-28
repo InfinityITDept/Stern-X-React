@@ -39,3 +39,26 @@ $blue: #0ed2e9;
     }
 }
 
+@media only screen and (max-width: 600px) {
+.Reviews{
+    color: $dark-green;
+    display: inline;
+    margin-top: 15%;
+    .Reviews-container{
+        display: inline;
+        .Reviews-col{
+        display: inline;
+            .Reviews-img{
+                max-width: 60%;
+            }
+            .Reviews-text-col{
+                max-width: 60%;
+                margin-left: 20%;
+                margin-bottom: 15%;
+            }
+            .Reviews-hr{}
+        }
+    }
+}
+}
+

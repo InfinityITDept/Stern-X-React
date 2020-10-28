@@ -14,7 +14,7 @@ export default class Banner extends Component {
 
                             <div className="col-12">
                                 <div className="div-2">
-                                    <p className="p2-1">CLEAN HANDS, SAFE HANDS</p>
+                                    <p className="p2-1">CLEAN HANDS, SAVE LIVES</p>
                                     <p className="p2-2">Soothing & Moisturizing</p>
                                 </div>
                                 <img src={BannerHS} className="img-fluid" alt="Banner Image" />
@@ -36,7 +36,7 @@ export default class Banner extends Component {
 
                             <div className="col-12">
                                 <div className="div-2">
-                                    <p className="p2-1">CLEAN HANDS, SAFE HANDS</p>
+                                    <p className="p2-1">CLEAN HANDS, SAVE LIVES</p>
                                     <p className="p2-2">Soothing & Moisturizing</p>
                                 </div>
                                 <img src={BannerBleach} className="img-fluid" alt="Banner Image" />

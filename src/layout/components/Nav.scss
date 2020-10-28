@@ -12,3 +12,20 @@ nav{
         font-weight: 490;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    nav{
+        background-color: #6de5eb;
+        .navbar-brand{
+            img{
+                width: 80%;
+                margin-right: 8%;
+            }
+        } 
+        .navbar-nav > .nav-link{
+            color: black !important;
+            font-weight: 490;
+            margin-right: 50%;
+        }
+    }
+}

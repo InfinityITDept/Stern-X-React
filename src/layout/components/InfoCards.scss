@@ -47,3 +47,46 @@ $blue: #0ed2e9;
     .Cards-description{
         font-size: 30px;
     }
+
+    @media only screen and (max-width: 500px) {
+        .Cards{
+            margin-top: 9%;
+            margin-bottom: 10%;
+            color: $dark-green;
+            margin-left: 1%;
+        }
+        
+        .Cards-container {
+            display: inline;
+            justify-content: center;
+            margin-left: 10%;
+          }
+        
+          .Cards-img-col{
+              margin-top: 55px;
+            .line{
+                display: none;
+              }
+              .Cards-img {
+                  margin-top: 10px;
+              }
+          }
+        
+        
+          .Cards-text-col {
+              h1{
+                  text-align: left;
+                  font-size: 30px;
+              }
+              p{
+                font-size: 28px;
+                margin-top: 40px;
+                text-align: justify;
+                max-width: 72%;
+              }
+          }
+            .Cards-description{
+                font-size: 30px;
+            }
+        
+    }
