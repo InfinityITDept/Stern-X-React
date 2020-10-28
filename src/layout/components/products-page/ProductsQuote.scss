@@ -7,3 +7,12 @@
     font-weight: 750;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .Quote{
+    height: 400px;
+    .Quote-title{
+      padding-top: 15%;
+    }
+  }
+}

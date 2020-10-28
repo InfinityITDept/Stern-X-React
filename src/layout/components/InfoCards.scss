@@ -30,8 +30,6 @@ $blue: #0ed2e9;
           margin-top: 10px;
       }
   }
-
-
   .Cards-text-col {
       h1{
           text-align: left;
@@ -48,18 +46,17 @@ $blue: #0ed2e9;
         font-size: 30px;
     }
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 600px) {
         .Cards{
-            display: inline;
             overflow: hidden;
-            margin-left: 10%;
+            display: inline;
         }
         .Cards-container {
-            display: inline;
-
+            margin-top: 10%;
           }
         
           .Cards-img-col{
+              
             .line{
                 
               }
@@ -71,10 +68,10 @@ $blue: #0ed2e9;
           .Cards-text-col {
               h1{
                   text-align: left;
-                  font-size: 30px;
+                  font-size: 25px;
               }
               p{
-                font-size: 28px;
+                font-size: 17px;
                 margin-top: 40px;
                 text-align: justify;
                 max-width: 72%;
