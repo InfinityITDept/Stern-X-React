@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import mapboxgl from 'mapbox-gl';
- const TOKEN = "pk.eyJ1IjoiaW5maW5pdHlpdCIsImEiOiJja2dxbGU5c3Awd2Y5MnJvOHI3Z3ZxeWl5In0.u4VBzBSjet_M5Uup3-nueA";
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 export default class Map extends Component {
     constructor(props) {
         super(props);

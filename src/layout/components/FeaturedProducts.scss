@@ -69,6 +69,7 @@ $light-blue: #7deefb;
         .Featured-title-main{
             font-size: 40px;
             margin-top: 10%;
+            margin-bottom: 10%;
         }
 
         .Featured-products-container{
@@ -81,6 +82,7 @@ $light-blue: #7deefb;
                 margin-right: 0%;    
                 .Featured-title{
                     font-size: 40px;
+                    margin-bottom: 5%;
                 }
                 .Featured-text{
                     font-size: 16px;
@@ -94,18 +96,22 @@ $light-blue: #7deefb;
         
         .Featured-products-container2{
         display: inline;
+        z-index: -10;
             .Featured-text-col-left{
                 max-width: 80%;
                 .Featured-title{
+                    margin-top: 8%;
                     font-size: 40px;
+                    margin-bottom: 5%;
                 }
                 .Featured-text{
                     font-size: 16px;
                 }
             }
             .Img-2{
+                z-index: 1000;
                 width: 80%;
-                position: absolute;
+                margin-right: 15%;
             }
         }
     }
