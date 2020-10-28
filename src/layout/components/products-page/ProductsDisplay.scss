@@ -23,3 +23,27 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .Products{
+    overflow-x: hidden;
+    h1{
+      margin-top: 5%;
+      margin-bottom: 10%;
+      color: #242424;
+    }
+    .Products-row{
+      display: inline;
+      .Products-card{
+        .Card-text{
+          margin-top: 5%;
+          margin-bottom: -7%;
+        }
+        img{}
+        Button{
+          margin-bottom: 15%;
+        }
+      }
+    }
+  }
+}
