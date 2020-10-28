@@ -34,3 +34,17 @@
 .Thumb-slider{
     margin-left: 16%;
 }
+
+@media only screen and (max-width: 600px) {
+    .Main{
+        display: inline;
+        .Slider-class{
+            width: 90%;
+        }
+        .Main-list{
+            max-width: 85%;
+            margin-left: 7%;
+        }
+    }
+
+}
