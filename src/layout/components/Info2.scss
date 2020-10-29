@@ -1,0 +1,134 @@
+.Cards{
+    display: flex;
+    margin-right: 10%;
+
+
+    .Cards-container1{
+        display: flex;
+        margin-right: 3%;
+        .Cards-img-container{
+            margin-top: 4%;
+            .hr1{
+                margin-left: 15%;
+                width: 140%;
+                height: 1.9px;
+                background-color: #0ed2e9;
+            }
+
+            .Cards-img{
+                max-width: 70%;
+            }
+            
+        }
+        .Cards-text-container{
+            max-width: 40%;
+            text-align: left;
+            .hr2{
+                visibility: hidden;
+            }
+        }
+    }
+
+
+    .Cards-container2{
+        display: flex;
+        .Cards-img-container{
+            margin-top: 4%;
+            .hr1{
+                margin-left: 12%;
+                width: 150%;
+                height: 1.9px;
+                background-color: #0ed2e9;
+            }
+            .Cards-img{
+                max-width: 75%;
+            }
+        }
+        .Cards-text-container{
+            max-width: 40%;
+            text-align: left;
+            .hr2{
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Cards{
+        display: inline;
+        margin-right: 10%;
+    
+    
+        .Cards-container1{
+            display: inline;
+            margin-right: 3%;
+            .Cards-img-container{
+                margin-top: 4%;
+
+                .hr1{
+                    display: none;
+                }
+                .Cards-img{
+                    max-width: 70%;
+                    margin-left: 7%;
+                }
+                
+            }
+            .Cards-text-container{
+                max-width: 90%;
+                text-align: center;
+                margin-left: 10%;
+                h1{
+                    font-size: 30px;
+                    margin-top: 4%;
+                }
+                p{
+                    font-size: 20px;
+                }
+                .hr2{
+                    visibility: visible;
+                    width: 80%;
+                    height: 3px;
+                    background-color: #0ed2e9;
+                }
+            }
+        }
+
+        .Cards-container2{
+            display: inline;
+            margin-right: 3%;
+            .Cards-img-container{
+                margin-top: 4%;
+
+                .hr1{
+                    display: none;
+                }
+                .Cards-img{
+                    max-width: 70%;
+                    margin-left: 7%;
+                }
+                
+            }
+            .Cards-text-container{
+                max-width: 90%;
+                text-align: center;
+                margin-left: 10%;
+                h1{
+                    font-size: 30px;
+                    margin-top: 4%;
+                }
+                p{
+                    font-size: 20px;
+                }
+                .hr2{
+                    visibility: visible;
+                    width: 80%;
+                    height: 3px;
+                    background-color: #0ed2e9;
+                }
+            }
+        }
+    }
+}

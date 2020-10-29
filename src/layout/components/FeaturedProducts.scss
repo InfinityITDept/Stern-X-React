@@ -1,5 +1,9 @@
 $light-blue: #7deefb;
 
+body{
+    overflow-x: hidden;
+}
+
 .Featured-title-main{
     margin-bottom: 4%;
     margin-top: 2%;
@@ -14,6 +18,7 @@ $light-blue: #7deefb;
     background-color: #acf1f5;
     height: 600px;
     margin-left: 25%;
+    
     .Featured-text-col-right{
         z-index: -1 !important;
         margin-right: 18%;
@@ -66,6 +71,7 @@ $light-blue: #7deefb;
 @media only screen and (max-width: 600px) {
     .Featured-products{
         display: inline;
+        visibility: hidden;
         .Featured-title-main{
             font-size: 40px;
             margin-top: 10%;
@@ -97,6 +103,7 @@ $light-blue: #7deefb;
         .Featured-products-container2{
         display: inline;
         z-index: -10;
+
             .Featured-text-col-left{
                 max-width: 80%;
                 .Featured-title{
@@ -111,6 +118,7 @@ $light-blue: #7deefb;
             .Img-2{
                 z-index: 1000;
                 width: 80%;
+                position: static;
                 margin-right: 15%;
             }
         }

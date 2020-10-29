@@ -1,0 +1,13 @@
+.Navbar-color{
+    background-color: #6de5eb;
+}
+.mr-auto{
+    margin-left: 72%;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+    .mr-auto{
+        margin-left: 37%;
+    } 
+}

@@ -3,6 +3,7 @@ import './App.scss';
 import "bootstrap";
 import Landing from "./layout/Landing";
 import Products from "./layout/Products"
+import NewNav from "./layout/components/NewNav";
 import Nav from "./layout/components/Nav";
 import Footer from "./layout/components/Footer";
 import SingleProduct from './layout/SingleProduct';
@@ -20,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Nav />
+        <NewNav />
       <Switch>
           <Route exact path="/" component={Landing} />
           <Route exact path="/products" component={Products} />
