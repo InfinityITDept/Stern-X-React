@@ -7,6 +7,7 @@ import "../../../../node_modules/slick-carousel/slick/slick.scss";
 import Sanitizer13 from "../images/single product images/Hand Sanitizer 13oz-01.jpg";
 import Thumb from "../images/thumbnails/1 (1).jpg";
 import Button from "react-bootstrap/Button";
+import MapButton from "./MapButton";
 
 
 export default class MainProduct extends Component {
@@ -79,9 +80,7 @@ export default class MainProduct extends Component {
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tincidunt diam, eget molestie ante.</li>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tincidunt diam, eget molestie ante.</li>
             </ul>
-            <Button variant="warning" size="lg" block>
-              Find Store
-            </Button>
+              <MapButton />
             </div>
 
           </div>
