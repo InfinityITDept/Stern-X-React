@@ -5,6 +5,7 @@ import FeaturedProducts from "./components/FeaturedProducts";
 import About from "./components/About";
 import Reviews from "./components/Reviews";
 import Cards2 from "./components/Info2";
+import FeaturedMobile from './components/FeaturedMobile';
 
 export default class Landing extends Component {
     render() {
@@ -14,6 +15,7 @@ export default class Landing extends Component {
                     <Banner />
                     <Cards2 />
                     <FeaturedProducts />
+                    <FeaturedMobile />
                     <Reviews />
                 </div>
             </div>

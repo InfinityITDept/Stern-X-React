@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import "./FeaturedProducts.scss";
 import Placeholder from "./images/placeholder.jpg";
 import Sanitizers from "./images/Sanitizers-01.jpg";
 import Bleach from "./images/Bleach-01.jpg";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
+
 
 export default class FeaturedProducts extends Component {
     render() {
