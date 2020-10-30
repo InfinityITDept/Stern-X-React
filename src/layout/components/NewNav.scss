@@ -1,3 +1,5 @@
+$dark-green: #285056;
+
 .Navbar-color{
     background-color: #6de5eb;
 }
@@ -9,5 +11,8 @@
 @media only screen and (max-width: 600px) {
     .mr-auto{
         margin-left: 37%;
+        .nav-link{
+        color: $dark-green !important;
+        }
     } 
 }

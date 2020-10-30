@@ -18,6 +18,7 @@ export default class Footer extends Component {
                     <div className="Footer-links">
                         <Link to="/" className="home-link">HOME</Link>
                         <Link to="/products" className="products-link">PRODUCTS</Link>
+                        <Link to="/about" className="products-link">ABOUT</Link>
                         <Link to="/soon" className="faq-link">FAQ</Link>
                     </div>
                 </div>

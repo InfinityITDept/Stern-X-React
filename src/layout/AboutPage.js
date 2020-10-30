@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import "./AboutPage.scss";
+import Placeholder from "./components/images/BannerPlaceholder-01.jpg";
 
 export default class AboutPage extends Component {
     render() {
         return (
             <div className="AboutPage">
+                <h1 className="About-title">Our Company</h1>
+                <img src={Placeholder} alt="Banner" className="Placebanner"/>
                 <div className="AboutPage-container">
                     <div className="AboutPage-text">
-                        <h1>About us</h1>
                         <p>Stern-X was founded in 2020 in the sunny city of Miami,FL. We have since made a positive impact in the sanitary solutions industry by venturing into it during a time of scarcity of cleaning and disinfecting products. All while keeping a focus on our mission statement of offering the best cleaning solutions to our customers at affordable prices.
                         </p>
                         <p>

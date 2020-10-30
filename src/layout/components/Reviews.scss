@@ -4,11 +4,12 @@ $light-green: #c1ea00;
 $dark-green: #285056;
 $blue: #0ed2e9;
 
-
+.Reviews-title{
+    color: $dark-green;
+}
 .Reviews{
     color: $dark-green;
     display: flex;
-
     .Reviews-container{
         display: flex;
         max-width: 32%;
@@ -40,6 +41,10 @@ $blue: #0ed2e9;
 }
 
 @media only screen and (max-width: 600px) {
+.Reviews-title{
+    margin-bottom: 15%;
+    font-size: 40px;
+}
 .Reviews{
     color: $dark-green;
     display: inline;

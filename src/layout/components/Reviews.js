@@ -8,6 +8,8 @@ import Headshot3 from "./images/Headshot3.jpg";
 export default class Reviews extends Component {
     render() {
         return (
+            <div>
+                <h1 className="Reviews-title">Customer Reviews</h1>
             <div className="Reviews">
                 <div className="Reviews-container">
                     <div className="Reviews-col">
@@ -48,6 +50,7 @@ export default class Reviews extends Component {
                     </div>
                 </div>
             </div> 
+            </div>
         )
     }
 }

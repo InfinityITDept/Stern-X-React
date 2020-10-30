@@ -15,10 +15,10 @@ export default class NewNav extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="mr-auto">
-                        <Link to="/" className="nav-link">HOME</Link>
-                        <Link to="/products" className="nav-link">PRODUCTS</Link>
-                        <Link to="/about" className="nav-link">ABOUT</Link>
-                        <Link to="/soon" className="nav-link">CONTACT US</Link>
+                        <Link to="/" className="nav-link">Home</Link>
+                        <Link to="/products" className="nav-link">Products</Link>
+                        <Link to="/about" className="nav-link">About</Link>
+                        <Link to="/soon" className="nav-link">Contact Us</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

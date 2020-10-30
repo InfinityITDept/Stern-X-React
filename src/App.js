@@ -15,6 +15,8 @@ import {
 } from "react-router-dom";
 import ComingSoon from "./layout/ComingSoon";
 import About from "./layout/AboutPage";
+import ScrollButton from "./layout/components/ScrollTop";
+
 
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
           <Route exact path="/soon" component={ComingSoon} />
           <Route exact path="/about" component={About} />
       </Switch>
+      <ScrollButton />
       <Footer />
       </Router>
     </div>

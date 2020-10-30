@@ -1,4 +1,6 @@
 $light-blue: #7deefb;
+$dark-green: #285056;
+$light-green: #c1ea00;
 
 body{
     overflow-x: hidden;
@@ -8,7 +10,7 @@ body{
     margin-bottom: 4%;
     margin-top: 2%;
     font-size: 50px;
-    color: #454545;
+    color: $dark-green;
 }
 
 .Featured-products-container{
@@ -138,15 +140,21 @@ body{
                 max-width: 75%;
                 margin-left: 12%;
                 h2{
-                    color: #454545;
-                    margin-bottom: 5%;
+                    color: $dark-green;
+                    margin-bottom: 10%;
+                    margin-top: 5%;
+                }
+                hr{
+                    width: 80%;
+                    border: 2px solid $light-green;
                 }
                 p{
-                    color: #454545;
+                    color: $dark-green;
+                    font-size: 17px;
                 }
             }
             Button{
-                margin-top: 5%;
+                margin-top: 8%;
                 margin-bottom: 25%;
             }
         }
