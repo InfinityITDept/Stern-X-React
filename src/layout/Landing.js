@@ -5,7 +5,6 @@ import FeaturedProducts from "./components/FeaturedProducts";
 import About from "./components/About";
 import Reviews from "./components/Reviews";
 import Cards2 from "./components/Info2";
-import Featured2 from "./components/Featured2";
 
 export default class Landing extends Component {
     render() {
