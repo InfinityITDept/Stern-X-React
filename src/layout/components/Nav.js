@@ -17,7 +17,7 @@ export default class Nav extends Component {
                         <Link to="/" className="nav-link">HOME</Link>
                         <Link to="/products" className="nav-link">PRODUCTS</Link>
                         <Link to="/about" className="nav-link">ABOUT</Link>
-                        <Link to="/soon" className="nav-link">CONTACT US</Link>
+                        <Link to="/contact" className="nav-link">CONTACT US</Link>
                     </div>
                 </div>
             </Navbar>

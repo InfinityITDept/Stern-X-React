@@ -16,6 +16,7 @@ import {
 import ComingSoon from "./layout/ComingSoon";
 import About from "./layout/AboutPage";
 import ScrollButton from "./layout/components/ScrollTop";
+import Contact from "./layout/Contact";
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/single-product" component={SingleProduct} />
           <Route exact path="/soon" component={ComingSoon} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
       </Switch>
       <ScrollButton />
       <Footer />

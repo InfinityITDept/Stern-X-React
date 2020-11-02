@@ -18,7 +18,7 @@ export default class NewNav extends Component {
                         <Link to="/" className="nav-link">Home</Link>
                         <Link to="/products" className="nav-link">Products</Link>
                         <Link to="/about" className="nav-link">About</Link>
-                        <Link to="/soon" className="nav-link">Contact Us</Link>
+                        <Link to="/contact" className="nav-link">Contact Us</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

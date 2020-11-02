@@ -1,15 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component, useRef, useEffect, ReactDOM } from 'react';
 import mapboxgl from 'mapbox-gl';
 import "./Map.scss";
+import fetchFakeData from "../map-stuff/fetchFakeData";
+import Marker from "../map-stuff/Marker";
+
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 export default class Map extends Component {
     constructor(props) {
         super(props);
         this.state = {
-        lng: 280,
-        lat: 26,
-        zoom: 6
+                    lng: 280,
+                    lat: 26,
+                    zoom: 6
         };
         }
 
@@ -21,15 +24,20 @@ export default class Map extends Component {
             zoom: this.state.zoom
             });
             }
-    render() {
-        return (
-        
 
-            <div class="container">
-                <div className='sidebarStyle'>
-                <div>Longitude: {this.state.lng} | Latitude: {this.state.lat} | Zoom: {this.state.zoom}</div>
-                </div>
-                <div ref={el => this.mapContainer = el} className="mapContainer map"/>
+
+    render() {
+        const style = {
+            position: 'relative',
+            top: 0,
+            bottom: 0,
+            width: '40%',
+            height: "500px"
+          };
+
+        return (
+            <div className="">
+                <div style={style} ref={el => this.mapContainer = el} className="mapContainer map"/>
             </div>
 
         )
