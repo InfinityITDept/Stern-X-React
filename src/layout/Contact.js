@@ -32,6 +32,7 @@ export default function Contact() {
     return (
         <div className="Contact container">
         <h1>Contact us</h1>
+        <p>We are glad to answer your questions. Please fill out the form below and we will be in touch as soon as possible.</p>
 
         <Form.Group onSubmit={handleSubmit}>
                 <Form.Row>
