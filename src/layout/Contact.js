@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import "./Contact.scss";
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
@@ -6,101 +6,77 @@ import Button from "react-bootstrap/Button";
 import axios from "axios";
 import { ThemeProvider } from 'react-bootstrap';
 
-export default class Contact extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-          name: '',
-          email: '',
-          number: '',
-          reason:'',
-          message: ''
-        }
-    }
 
-    onNameChange(event) {
-        this.setState({name: event.target.value})
-    }
-    onEmailChange(event) {
-        this.setState({email: event.target.value})
-    }
-    onNumberChange(event) {
-        this.setState({number: event.target.value})
-    }
-    onReasonChange(event) {
-        this.setState({reason: event.target.value})
-    }
-    onMessageChange(event) {
-        this.setState({message: event.target.value})
-    }
+export default function Contact() {
+    const [inputs, setInputs] = useState({email: '', name: '', subject: '', description: '', phone: ''});
 
-    submitEmail(e){
-        e.preventDefault();
-        axios({
-          method: "POST", 
-          url:"/send", 
-          data: this.state
-        }).then((response)=>{
-          if (response.data.status === 'success'){
-              alert("Message Sent."); 
-              this.resetForm()
-          }else if(response.data.status === 'fail'){
-              alert("Message failed to send.")
-          }
-        })
-}
-resetForm(){
-        this.setState({name: '', email: '', number:'',reason:'', message: ''})
-}
+    const handleChange = e => {
+        const {name, value} = e.target
+        setInputs(prev => ({...prev, [name]: value }))
+      }
+      const handleSubmit = e => {
+        e.preventDefault()
+        // post request goes here. 
+        const {email,name,subject,description,phone} = inputs
+        axios.post('/sendtome', {
+        //make an object to be handled from req.body on the backend. 
+        email,
+        name,
+        subject,
+        phone,
+        //change the name to represent text on the backend.
+        text: description
+        }) 
+      }
 
-    render() {
-        return (
-            <div className="Contact container">
-                <h1>Contact us</h1>
-                
-                <Form.Group onSubmit={this.submitEmail.bind(this)} method="POST">
-                    <Form.Row>
-                        <Form.Label column="lg" lg={3}>
-                        Name
-                        </Form.Label>
-                        <Col>
-                        <Form.Control size="lg" type="text" placeholder="Name" required value={this.state.name} onChange={this.onNameChange.bind(this)} />
-                        </Col>
-                    </Form.Row>
+    return (
+        <div className="Contact container">
+        <h1>Contact us</h1>
 
-                    <Form.Row>
-                        <Form.Label column="lg" lg={3}>
-                        E-mail
-                        </Form.Label>
-                        <Col>
-                        <Form.Control size="lg" type="text" placeholder="E-mail" required value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-                        </Col>
+        <Form.Group onSubmit={handleSubmit}>
+                <Form.Row>
+                    <Form.Label column="lg" lg={1}>
+                        Name:
+                    </Form.Label>
+                    <Col>
+                    <Form.Control size="lg" type="text" placeholder="Name" name="name" value={inputs.name} onChange={handleChange} />
+                    </Col>
+                </Form.Row>
 
-                        <Form.Label column="lg" lg={3}>
-                        Phone Number
-                        </Form.Label>
-                        <Col>
-                        <Form.Control size="lg" type="text" placeholder="Phone Number" required value={this.state.number} onChange={this.onNumberChange.bind(this)}/>
-                        </Col>
-                    </Form.Row>
+                <Form.Row>
+                    <Form.Label column="lg" lg={1}>Phone #:</Form.Label>
+                    <Col lg={5}>
+                    <Form.Control size="lg" type="text" placeholder="Phone #" name="phone" value={inputs.phone} onChange={handleChange}/>
+                    </Col>
+                    <Form.Label column="lg" lg={1}>E-mail:</Form.Label>
+                    <Col lg={5}>
+                    <Form.Control size="lg" type="text" placeholder="E-mail" name="email" value={inputs.email} onChange={handleChange}/>
+                    </Col>
+                </Form.Row>
 
-                    <Form.Row>
-                        <Form.Label column="lg" lg={3}>
-                        Reason for contacting us
-                        </Form.Label>
-                        <Col>
-                        <Form.Control size="lg" type="text" placeholder="Reason" required value={this.state.reason} onChange={this.onReasonChange.bind(this)}/>
-                        </Col>
-                    </Form.Row>
+                <Form.Row>
+                    <Form.Label column="lg" lg={1}>
+                        Subject:
+                    </Form.Label>
+                    <Col>
+                    <Form.Control size="lg" type="text" placeholder="Reason for contacting us" name="subject" value={inputs.subject} onChange={handleChange} />
+                    </Col>
+                </Form.Row>
 
-                    <Form.Label column="lg" lg={2}>Message</Form.Label>
-                    <Form.Control as="textarea" rows={4} placeholder="Message" required value={this.state.message} onChange={this.onMessageChange.bind(this)}/>
+                <Form.Row>
+                <Form.Label column="lg" lg={1}>
+                        Message:
+                    </Form.Label>
+                    <Col>
+                    <Form.Control size="lg" type="text" placeholder="Message" as="textarea" rows={4} name="description" value={inputs.description} onChange={handleChange}/>
+                    </Col>                
+                </Form.Row>
 
-                    <Button variant="primary" size="lg" onClick={this.submitEmail}>
-                    Large button
-                    </Button>{' '}
-                </Form.Group>
-            </div>
-        )
-    }
+                <Button variant="primary" size="lg" type="submit" onClick={handleSubmit}>
+                Submit
+                </Button>{' '}
+        </Form.Group>
+
+    </div>
+    )
 }
