@@ -3,6 +3,11 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 var cors = require('cors');
 
+const path = require('path');
+
+// Static folder
+app.use('/public', express.static(path.join(__dirname, 'public')));
+
 nodemailer.createTransport({
     host: "smtp.gmail.com", //replace with your email provider
     port: 587,
@@ -24,19 +29,18 @@ transporter.verify(function(error, success) {
   });
 
 
-  router.post('/send', (req, res, next) => {
-    var name = req.body.name
+  router.post('/access', (req, res, next) => {
     var email = req.body.email
-    var number = req.body.number
-    var reason = req.body.reason
     var message = req.body.message
-    var content = `name: ${name} \n email: ${email} \n number: ${number} \n reason: ${reason} \n message: ${message} `
+    var content = `email: ${email} \n message: ${message} `
+  
     var mail = {
-      from: name,
-      to:  // receiver email,
-      subject: subject,
+      from: name, 
+      to: name, 
+      message: subject,
       text: content
     }
+  
     transporter.sendMail(mail, (err, data) => {
       if (err) {
         res.json({
@@ -49,3 +53,13 @@ transporter.verify(function(error, success) {
       }
     })
   })
+
+  app.use((request, response, next) => {
+    response.header("Access-Control-Allow-Origin", "*");
+    response.header("Access-Control-Allow-Headers", "Content-Type");
+    next();
+  });
+
+// serve PORT running here
+const PORT = process.env.PORT || 8080
+app.listen(PORT, () => console.info(`server has started on ${PORT}`))
