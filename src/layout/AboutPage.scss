@@ -30,6 +30,9 @@ $dark-green: #285056;
 }
 
 @media only screen and (max-width: 600px) {
+    .AboutPage{
+        display: none;
+    }
     .Placebanner{
         position: relative;
     }

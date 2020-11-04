@@ -1,0 +1,21 @@
+.AboutMobile-container{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .AboutMobile-container{
+        display: inline;
+        .MobileTitle{
+            font-size: 40px;
+            margin-bottom: 10%;
+            margin-top: 10%;
+        }
+        p1{
+            
+        }
+    }
+    .read-more-link{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
