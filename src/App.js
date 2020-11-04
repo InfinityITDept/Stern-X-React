@@ -17,6 +17,7 @@ import ComingSoon from "./layout/ComingSoon";
 import About from "./layout/AboutPage";
 import ScrollButton from "./layout/components/ScrollTop";
 import Contact from "./layout/Contact";
+import ReactMap from "./layout/components/single-products/ReactMapbox";
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/soon" component={ComingSoon} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/reactmap" component={ReactMap} />
       </Switch>
       <ScrollButton />
       <Footer />

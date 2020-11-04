@@ -9,19 +9,13 @@ export default function MapButton() {
 
     return (
         <div>
-            <Button
-                variant="warning" size="lg" block
-                onClick={() => setOpen(!open)}
-                aria-controls="example-collapse-text"
-                aria-expanded={open}
-            >
+
+            <Button variant="warning" size="lg" block>
+            <a href="#Mapscroll">
                 Find a store
+                </a>
             </Button>
-            <Collapse in={open}>
-                <div id="example-collapse-text">
-                    <Map className="Map"/>
-                </div>
-            </Collapse>
+
         </div>
     )
 }
