@@ -18,6 +18,7 @@ import About from "./layout/AboutPage";
 import ScrollButton from "./layout/components/ScrollTop";
 import Contact from "./layout/Contact";
 import ReactMap from "./layout/components/single-products/ReactMapbox";
+import StartingPoint from "./layout/components/StartingPoint";
 
 
 
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <StartingPoint />
         <NewNav />
       <Switch>
           <Route exact path="/" component={Landing} />
