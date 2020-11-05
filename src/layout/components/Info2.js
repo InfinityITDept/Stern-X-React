@@ -17,7 +17,7 @@ export default class InfoCards extends Component {
 
                         <div className="Cards-text-container">
                             <h1 className="Cards-title">Help Flatten the</h1>
-                            <h1>Curve</h1>
+                            <h1 className="Second-title">Curve</h1>
                             <hr className="hr2"></hr>
                             <p className="Cards-description">Our line of products are essential to keep your home, office and surfaces free of germs.</p>
                         </div>
@@ -33,7 +33,7 @@ export default class InfoCards extends Component {
 
                         <div className="Cards-text-container">
                             <h1 className="Cards-title">Spread Positivity</h1>
-                            <h1>Not the Virus</h1>
+                            <h1 className="Second-title">Not the Virus</h1>
                             <hr className="hr2"></hr>
                             <p className="Cards-description">Learn more about how our products help combat the spread of Covid-19.</p>
                         </div>

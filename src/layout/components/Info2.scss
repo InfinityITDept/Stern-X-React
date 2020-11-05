@@ -58,18 +58,21 @@
     .Cards-container1{
         .Cards-img-container{
             .hr1{
-                width: 150%;
+                width: 140%;
             }
             .Cards-img{
-                width: 80%
+                width: 80%;
             }
         }
         .Cards-text-container{
             h1{
-                font-size: 30px;
+                font-size: 24px;
             }
             p{
                 font-size: 20px;
+            }
+            .Second-title{
+                margin-top: 6%;
             }
         }
     }
@@ -88,6 +91,9 @@
             }
             p{
                 font-size: 20px;
+            }
+            .Second-title{
+                margin-top: 9%;
             }
         }
     }
