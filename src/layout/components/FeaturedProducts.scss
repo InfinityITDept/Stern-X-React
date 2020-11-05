@@ -77,15 +77,16 @@ body{
 
 @media only screen and (max-width: 1500px) {
     .Featured-products-container{
+        height: 500px;
         .Img-1{
-            width: 250%;
+            width: 230%;
         }
         .Featured-title{
             font-size: px;
         }
         .Featured-text-col-right{
-            margin-left: 11%;
-
+            margin-left: 8%;
+            width: 85%;
             .Featured-title{
                 font-size: 50px;
                 margin-bottom: 40px;
@@ -97,8 +98,9 @@ body{
     }
 
     .Featured-products-container2{
+        height: 500px;
         .Img-2{
-            width: 45%;
+            width: 44%;
             margin-left: 41%;
         }
 
