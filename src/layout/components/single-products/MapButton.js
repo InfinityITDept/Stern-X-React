@@ -9,12 +9,11 @@ export default function MapButton() {
 
     return (
         <div>
-
+            <a href="#sidebar" className="Mapbutton">
             <Button variant="warning" size="lg" block>
-            <a href="#sidebar">
                 Find a store
-                </a>
             </Button>
+            </a>
 
         </div>
     )

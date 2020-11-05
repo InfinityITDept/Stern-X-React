@@ -17,7 +17,7 @@ export default function Contact() {
       const handleSubmit = e => {
         e.preventDefault()
         // post request goes here. 
-        const {email,name,subject,description,phone} = inputs
+        const {email,name,subject,description,phone} = inputs;
         axios.post('/sendtome', {
         //make an object to be handled from req.body on the backend. 
         email,
