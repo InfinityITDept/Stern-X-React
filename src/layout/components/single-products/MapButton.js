@@ -11,7 +11,7 @@ export default function MapButton() {
         <div>
 
             <Button variant="warning" size="lg" block>
-            <a href="#Mapscroll">
+            <a href="#sidebar">
                 Find a store
                 </a>
             </Button>

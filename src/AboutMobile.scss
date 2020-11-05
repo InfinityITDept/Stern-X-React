@@ -10,12 +10,21 @@
             margin-bottom: 10%;
             margin-top: 10%;
         }
-        p1{
-            
+        .p1{
+            width: 85%;
+            margin-left: 6%;
+            font-size: 17px;
         }
+        .extra-content{
+            width: 85%;
+            margin-left: 6%;
+            font-size: 17px;
+        }
+
     }
     .read-more-link{
-        text-decoration: none;
+        text-decoration: none !important;
         cursor: pointer;
+        font-size: 17px;
     }
 }

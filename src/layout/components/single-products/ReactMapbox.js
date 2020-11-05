@@ -16,7 +16,7 @@ export default class ReactMapbox extends Component {
           });
         return (
             <div className="Mainwrap">
-                <div className='sidebar pad2'>
+                <div className='sidebar pad2' id="sidebar">
 
                     <div className="list">
                     <h3>List of Stores</h3>
@@ -137,6 +137,76 @@ export default class ReactMapbox extends Component {
 
                     </Map>
                 </div>
+
+                <div className="Map2">
+                <Map
+                    className="MobileMapito"
+                    style="mapbox://styles/mapbox/streets-v11"
+                    containerStyle={{
+                        height: '45vh',
+                        width: '85vw',
+                    }}
+                    center={[-80.2994983, 25.7825453]}
+                    zoom={[9]}
+                    >
+
+                        <Marker
+                        coordinates={[-80.260274, 25.765131]}
+                        anchor="bottom">
+                        <img src={Pointer}/>
+                        </Marker>
+                        
+                        <Marker
+                        coordinates={[-80.274001, 25.825420]}
+                        anchor="bottom">
+                        <img src={Pointer}/>
+                        </Marker>
+                        
+                        <Marker
+                        coordinates={[-80.336966, 25.732573]}
+                        anchor="bottom">
+                        <img src={Pointer}/>
+                        </Marker>
+                        
+                        <Marker
+                        coordinates={[-80.281627, 25.770903]}
+                        anchor="bottom">
+                        <img src={Pointer}/>
+                        </Marker>
+                        
+                        <Marker
+                        coordinates={[-80.307852, 25.926467]}
+                        anchor="bottom">
+                        <img src={Pointer}/>
+                        </Marker>                    
+                        
+                        <Marker
+                        coordinates={[-80.346784, 25.892354]}
+                        anchor="bottom">
+                        <img src={Pointer}/>
+                        </Marker>                    
+                        
+                        <Marker
+                        coordinates={[-80.297817, 25.867433]}
+                        anchor="bottom">
+                        <img src={Pointer}/>
+                        </Marker>                    
+                        
+                        <Marker
+                        coordinates={[-80.316140, 25.86171]}
+                        anchor="bottom">
+                        <img src={Pointer}/>
+                        </Marker>                    
+                        
+                        <Marker
+                        coordinates={[-80.390779, 25.747035]}
+                        anchor="bottom">
+                        <img src={Pointer}/>
+                        </Marker>
+
+                    </Map>
+                </div>
+
             </div>
 
         )
