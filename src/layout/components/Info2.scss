@@ -54,6 +54,44 @@
     }
 }
 
+@media only screen and (max-width: 1300px) {
+    .Cards-container1{
+        .Cards-img-container{
+            .hr1{
+                width: 150%;
+            }
+            .Cards-img{
+                width: 80%
+            }
+        }
+        .Cards-text-container{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    .Cards-container2{
+        .Cards-img-container{
+            .hr1{
+                width: 150%;
+            }
+            .Cards-img{
+                width: 80%
+            }
+        }
+        .Cards-text-container{
+            h1{
+                font-size: 24px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .Cards{
