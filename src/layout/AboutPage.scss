@@ -14,7 +14,7 @@ $dark-green: #285056;
 }
 
 .AboutPage-container{
-    height: 330px;
+    height: 350px;
     text-align: left;
     .AboutPage-text{
         max-width: 75%;
@@ -25,6 +25,23 @@ $dark-green: #285056;
         }
         p{
             font-size: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .AboutPage{
+        .About-title{
+            margin-left: 22%;
+        }
+        .Placebanner{
+            max-width: 100%;
+        }
+        .AboutPage-container{
+            height: 400px;
+            .AboutPage-text{
+            }
+
         }
     }
 }
