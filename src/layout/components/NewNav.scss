@@ -7,6 +7,11 @@ $dark-green: #285056;
     margin-left: 72%;
     font-size: 22px;
 }
+@media only screen and (max-width: 1300px) {
+    .mr-auto{
+        margin-left: 60%;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .mr-auto{
