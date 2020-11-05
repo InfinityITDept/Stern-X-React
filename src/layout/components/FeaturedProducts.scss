@@ -75,6 +75,29 @@ body{
 }
 
 
+@media only screen and (max-width: 1300px) {
+    .Featured-products-container{
+        .Img-1{
+            width: 270%;
+        }
+        .Featured-title{
+            font-size: px;
+        }
+        .Featured-text-col-right{
+            margin-left: 11%;
+
+            .Featured-title{
+                font-size: 50px;
+                margin-bottom: 40px;
+            }
+            .Featured-text{
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
     .Featured-products{
         display: none;
