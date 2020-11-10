@@ -12,6 +12,7 @@ import XtraBleach from "../images/single product images/Bleach Extra Strength-01
 import Lavander from "../images/single product images/Bleach Lavender-01.jpg";
 import Lemon from "../images/single product images/Bleach Lemon-01.jpg";
 import {Link} from "react-router-dom";
+import SingleProduct from "../../SingleProduct";
 
 
 export default class ProductsDisplay extends Component {
@@ -26,7 +27,7 @@ export default class ProductsDisplay extends Component {
                             <h5>Hand Sanitizer 13oz</h5>
                             <p>Stern-X&trade;</p>
                         </div>
-                        <Link to="/single-product">
+                        <Link to="/single-product/1">
                             <Button variant="warning" size="md">
                             More Info
                             </Button>{' '}
@@ -39,7 +40,7 @@ export default class ProductsDisplay extends Component {
                             <h5>Hand Sanitizer 16oz</h5>
                             <p>Stern-X&trade;</p>
                         </div>
-                        <Link to="/single-product">
+                        <Link to="/single-product/2">
                             <Button variant="warning" size="md">
                             More Info
                             </Button>{' '}
@@ -52,7 +53,7 @@ export default class ProductsDisplay extends Component {
                             <h5>Hand Sanitizer 64oz</h5>
                             <p>Stern-X&trade;</p>
                         </div>
-                        <Link to="/single-product">
+                        <Link to="/single-product/3">
                             <Button variant="warning" size="md">
                             More Info
                             </Button>{' '}
@@ -64,7 +65,7 @@ export default class ProductsDisplay extends Component {
                             <h5>Liquid Hand Sanitizer</h5>
                             <p>Stern-X&trade;</p>
                         </div>
-                        <Link to="/single-product">
+                        <Link to="/single-product/4">
                             <Button variant="warning" size="md">
                             More Info
                             </Button>{' '}
@@ -80,7 +81,7 @@ export default class ProductsDisplay extends Component {
                         <h5>Regular Strength Bleach</h5>
                         <p>Stern-X&trade;</p>
                     </div>
-                <Link to="/single-product">
+                <Link to="/single-product/5">
                     <Button variant="warning" size="md">
                     More Info
                     </Button>{' '}
@@ -93,7 +94,7 @@ export default class ProductsDisplay extends Component {
                         <h5>Extra Strength Bleach</h5>
                         <p>Stern-X&trade;</p>
                     </div>
-                <Link to="/single-product">
+                <Link to="/single-product/6">
                     <Button variant="warning" size="md">
                     More Info
                     </Button>{' '}
@@ -106,7 +107,7 @@ export default class ProductsDisplay extends Component {
                         <h5>Lavender Scent Bleach</h5>
                         <p>Stern-X&trade;</p>
                     </div>
-                <Link to="/single-product">
+                <Link to="/single-product/7">
                 <Button variant="warning" size="md">
                     More Info
                     </Button>{' '}
@@ -119,7 +120,7 @@ export default class ProductsDisplay extends Component {
                         <h5>Lemon Scent Bleach</h5>
                         <p>Stern-X&trade;</p>
                     </div>
-                <Link to="/single-product">
+                <Link to="/single-product/8">
                 <Button variant="warning" size="md">
                     More Info
                     </Button>{' '}

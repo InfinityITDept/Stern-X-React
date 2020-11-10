@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.scss';
 import "bootstrap";
 import Landing from "./layout/Landing";
@@ -19,29 +18,52 @@ import ScrollButton from "./layout/components/ScrollTop";
 import Contact from "./layout/Contact";
 import ReactMap from "./layout/components/single-products/ReactMapbox";
 import StartingPoint from "./layout/components/StartingPoint";
+import React, { Component } from 'react'
 
+export default class App extends Component {
+  state ={
+    products: [
+      {
+        id: 1,
+        title: "Title 1"
+      },
+      {
+        id: 2,
+        title: "Title 2"
+      },
+      {
+        id: 3,
+        title: "Title 3"
+      }
+    ]
+  }
 
+  renderProducts = (routerProps) => {
+    let productId = parseInt(routerProps.match.params.id)
+    let foundProduct = this.state.products.find(productObj => productObj.id === productId)
+    return (foundProduct ? <SingleProduct product={foundProduct}/> : <Products/>)
+  }
 
-function App() {
-  return (
-    <div className="App">
+  render() {
+    return (
+      <div className="App">
       <Router>
         <StartingPoint />
         <NewNav />
       <Switch>
           <Route exact path="/" component={Landing} />
           <Route exact path="/products" component={Products} />
-          <Route exact path="/single-product" component={SingleProduct} />
+          <Route exact path="/single-product" component={Products} />
           <Route exact path="/soon" component={ComingSoon} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/reactmap" component={ReactMap} />
+          <Route path="/single-product/:id" render = {routerProps => this.renderProducts(routerProps)} />
       </Switch>
       <ScrollButton />
       <Footer />
       </Router>
     </div>
-  );
+    )
+  }
 }
-
-export default App;
