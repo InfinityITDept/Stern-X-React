@@ -25,7 +25,11 @@ export default class App extends Component {
     products: [
       {
         id: 1,
-        title: "Title 1"
+        title: "Title 1",
+        description: "Description of the product 1",
+        fact1: "First fact of product 1",
+        fact2: "Second fact of product 1",
+        fact3: "Third fact of product 1"
       },
       {
         id: 2,
