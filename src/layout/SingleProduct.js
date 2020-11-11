@@ -5,15 +5,68 @@ import "./components/single-products/MainProduct.scss";
 import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
-import Slider from "./components/single-products/Slider";
 import "./components/single-products/MainProduct.scss";
+import Slides from "./components/single-products/Slides";
+import Slider from "react-slick";
+import Sanitizer13 from "./components/images/single product images/Hand Sanitizer 13oz-01.jpg"
+import Thumb from "./components/images/thumbnails/1 (1).jpg";
+
 
 export default function SingleProduct({product}) {
+    const [nav1, setNav1] = React.useState(null)
+    const [nav2, setNav2] = React.useState(null)
+      let slider1 = []
+      let slider2 = []
+  
+      React.useEffect(() => {
+          setNav1(slider1)
+          setNav2(slider2)
+      }, [slider1, slider2])
+
     return (
         <div>
             <div className="Main"> 
                 <div className="Slider-class">
-                 <Slider />
+                    <Slider
+                    asNavFor={nav2}
+                    ref={slider => (slider1 = slider)}
+                    >
+                    <div className="img1">
+                        <img src={Sanitizer13} alt="Test" />
+                    </div>
+                    <div className="img1">
+                    <img src={Sanitizer13} alt="Test" />
+                    </div>
+                    <div className="img1">
+                    <img src={Sanitizer13} alt="Test" />
+                    </div>
+                    <div className="img1">
+                    <img src={Sanitizer13} alt="Test" />
+                    </div>
+
+                    </Slider>
+                    <Slider
+                    asNavFor={nav1}
+                    ref={slider => (slider2 = slider)}
+                    slidesToShow={3}
+                    swipeToSlide={true}
+                    focusOnSelect={true}
+                    className="Thumb-slider"
+                    >
+                    <div>
+                        <img src={Thumb} alt="test"/>
+                    </div>
+                    <div>
+                    <img src={Thumb} alt="test"/>
+                    </div>
+                    <div>
+                    <img src={Thumb} alt="test"/>
+                    </div>
+                    <div>
+                    <img src={Thumb} alt="test"/>
+                    </div>
+                    </Slider>
+
                 </div>           
 
                 <div className="Main-list">
