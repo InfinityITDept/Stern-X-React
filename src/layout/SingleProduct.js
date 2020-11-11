@@ -26,13 +26,15 @@ export default function SingleProduct({product}) {
                     <li>{product.fact3}</li>
                     </ul>
 
-                        <div>
-                        <a href="#sidebar" className="Mapbutton">
-                        <Button variant="warning" size="lg" block>
-                            Find a store
-                        </Button>
-                        </a>
-                        </div>      
+                <div>
+                { product.id === 17 || product.id === 18 || product.id === 19 || product.id === 20 ?                         
+                    <a href="#sidebar" className="Mapbutton">
+                    <Button variant="warning" size="lg" block>
+                        Find a store
+                    </Button>
+                    </a>  : null }
+                </div>
+     
                 </div>        
             </div>
 
@@ -75,7 +77,7 @@ export default function SingleProduct({product}) {
             </Accordion>
             </div>
 
-            {product.id === 17 || product.id === 18 || product.id === 19 || product.id === 20 ? <Map /> : null}
+                {product.id === 17 || product.id === 18 || product.id === 19 || product.id === 20 ? <Map /> : null}
 
         </div>
 
