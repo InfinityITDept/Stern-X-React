@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from "./components/single-products/ProductMenu";
+import "./components/single-products/ProductMenu.scss";
 import Map from "./components/single-products/ReactMapbox";
 import "./components/single-products/MainProduct.scss";
 import Button from "react-bootstrap/Button";
@@ -74,7 +74,7 @@ export default function SingleProduct({product}) {
             </Card>
             </Accordion>
             </div>
-            
+
             {product.id === 17 || product.id === 18 || product.id === 19 || product.id === 20 ? <Map /> : null}
 
         </div>
