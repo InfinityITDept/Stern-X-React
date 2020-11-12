@@ -18,7 +18,8 @@ import ScrollButton from "./layout/components/ScrollTop";
 import Contact from "./layout/Contact";
 import ReactMap from "./layout/components/single-products/ReactMapbox";
 import StartingPoint from "./layout/components/StartingPoint";
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 export default class App extends Component {
   state ={
@@ -330,73 +331,64 @@ export default class App extends Component {
         fact1: "Moisturizing Hand Soap.",
         fact2: "Free from Parabens & Triclosan.",
         fact3: "Citrus scent.",
-        ingredient1: "",
-        ingredient2: "",
-        ingredient3: "",
-        ingredient4: "",
-        use1: "",
-        use2: "",
-        use3: ""
+        ingredient1: "Water, Sodium Lauryl Suffate",
+        ingredient2: "Cocamidopropyl Betaine",
+        ingredient3: "Sodium Chloride, Methyl Glucose Diolate",
+        ingredient4: "Fragrance",
+        use1: "Pump liquid hand soap into dry hands. Rub hands together for at least 15 seconds. Rinse and clean dry thoroughly.",
+        use2: "For external use only.",
+        use3: "If product gets into eyes, rinse throughly with water."
       },
       {
         id: 22,
         title: "Ocean Mist Liquid Hand Soap 16oz",
         description: "Formulated with naturally refreshing and cleansing ingredients to leave your skin soft and with a lingering aroma",
         fact1: "Formulated with naturally refreshing and cleansing ingredients to leave your skin soft and with a lingering aroma",
-        fact2: "Fact 2",
+        fact2: "Free from Parabens & Triclosan.",
         fact3: "Ocean mist scent",
-        ingredient1: "",
-        ingredient2: "",
-        ingredient3: "",
-        ingredient4: "",
-        use1: "",
-        use2: "",
-        use3: ""
+        ingredient1: "Water, Sodium Lauryl Suffate",
+        ingredient2: "Cocamidopropyl Betaine",
+        ingredient3: "Sodium Chloride, Methyl Glucose Diolate",
+        ingredient4: "Fragrance",
+        use1: "Pump liquid hand soap into dry hands. Rub hands together for at least 15 seconds. Rinse and clean dry thoroughly.",
+        use2: "For external use only.",
+        use3: "If product gets into eyes, rinse throughly with water."
       },
       {
         id: 23,
         title: "Coco Mango Liquid Hand Soap 16oz",
-        description: "Sprayer refill description.",
-        fact1: "Disinfects to kill 99.9% of germs and bacteria.",
-        fact2: "Fact 2",
-        fact3: "Fact 3",
-        ingredient1: "",
-        ingredient2: "",
-        ingredient3: "",
-        ingredient4: "",
-        use1: "",
-        use2: "",
-        use3: ""
+        description: "Formulated with naturally refreshing and cleansing ingredients to leave your skin soft and with a lingering aroma.",
+        ingredient1: "Water, Sodium Lauryl Suffate",
+        ingredient2: "Cocamidopropyl Betaine",
+        ingredient3: "Sodium Chloride, Methyl Glucose Diolate",
+        ingredient4: "Fragrance",
+        use1: "Pump liquid hand soap into dry hands. Rub hands together for at least 15 seconds. Rinse and clean dry thoroughly.",
+        use2: "For external use only.",
+        use3: "If product gets into eyes, rinse throughly with water."
       },
       {
         id: 24,
         title: "Melon Cucumber Liquid Hand Soap 16oz",
-        description: "Sprayer refill description.",
-        fact1: "Disinfects to kill 99.9% of germs and bacteria.",
-        fact2: "Fact 2",
-        fact3: "Fact 3",
-        ingredient1: "",
-        ingredient2: "",
-        ingredient3: "",
-        ingredient4: "",
-        use1: "",
-        use2: "",
-        use3: ""
+        description: "Formulated with naturally refreshing and cleansing ingredients to leave your skin soft and with a lingering aroma.",
+        ingredient1: "Water, Sodium Lauryl Suffate",
+        ingredient2: "Cocamidopropyl Betaine",
+        ingredient3: "Sodium Chloride, Methyl Glucose Diolate",
+        ingredient4: "Fragrance",
+        use1: "Pump liquid hand soap into dry hands. Rub hands together for at least 15 seconds. Rinse and clean dry thoroughly.",
+        use2: "For external use only.",
+        use3: "If product gets into eyes, rinse throughly with water."
       },
       {
         id: 25,
         title: "Anti Bacterial Hand Soap 16oz",
-        description: "Sprayer refill description.",
-        fact1: "Disinfects to kill 99.9% of germs and bacteria.",
-        fact2: "Fact 2",
-        fact3: "Fact 3",
-        ingredient1: "",
-        ingredient2: "",
-        ingredient3: "",
-        ingredient4: "",
-        use1: "",
-        use2: "",
-        use3: ""
+        description: "Formulated with naturally refreshing and cleansing ingredients to leave your skin soft and with a lingering aroma.",
+        ingredient1: "Water, Sodium Lauryl Suffate",
+        ingredient2: "Cocamidopropyl Betaine",
+        ingredient3: "Sodium Chloride, Methyl Glucose Diolate",
+        ingredient4: "Fragrance",
+        use1: "Pump liquid hand soap into dry hands. Rub hands together for at least 15 seconds. Rinse and clean dry thoroughly.",
+        use2: "For external use only.",
+        use3: "If product gets into eyes, rinse throughly with water."
       }
     ]
   }

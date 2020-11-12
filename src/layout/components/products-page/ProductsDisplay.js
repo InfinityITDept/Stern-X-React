@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import Placeholder from "../images/placeholder.jpg";
 import "./ProductsDisplay.scss";
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import Sanitizer13 from "../images/single product images/Hand Sanitizer 13oz-01.jpg";
 import Sanitizer16 from "../images/single product images/Hand Sanitizer 16oz-01.jpg";
 import Sanitizer64 from "../images/single product images/Hand Sanitizer 64oz-01.jpg";
@@ -18,7 +16,7 @@ export default class ProductsDisplay extends Component {
     render() {
         return (
             <div className="Products">
-                <h1>All Products</h1>
+                <h1>Our Products</h1>
                 <div className="Products-row">
                     <div className="Products-card">
                         <img src={Sanitizer13} alt="Card image" />
