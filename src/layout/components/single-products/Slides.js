@@ -1,4 +1,3 @@
-
 import Slider from "react-slick";
 import Sanitizer13 from "../images/single product images/Hand Sanitizer 13oz-01.jpg";
 import "../../../../node_modules/slick-carousel/slick/slick-theme.scss";

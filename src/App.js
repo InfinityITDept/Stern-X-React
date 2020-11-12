@@ -341,10 +341,10 @@ export default class App extends Component {
       {
         id: 22,
         title: "Ocean Mist Liquid Hand Soap 16oz",
-        description: "Sprayer refill description.",
-        fact1: "Disinfects to kill 99.9% of germs and bacteria.",
+        description: "Formulated with naturally refreshing and cleansing ingredients to leave your skin soft and with a lingering aroma",
+        fact1: "Formulated with naturally refreshing and cleansing ingredients to leave your skin soft and with a lingering aroma",
         fact2: "Fact 2",
-        fact3: "Fact 3",
+        fact3: "Ocean mist scent",
         ingredient1: "",
         ingredient2: "",
         ingredient3: "",
