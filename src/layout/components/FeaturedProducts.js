@@ -12,7 +12,6 @@ export default class FeaturedProducts extends Component {
         return (
                     <div className="Featured-products">
 
-                        <h1 className="Featured-title-main">Featured Products</h1>
                         <div className="Featured-products-container">
                             <div>
                                 <img className="Img-1" src={Sanitizers} alt="test" />
