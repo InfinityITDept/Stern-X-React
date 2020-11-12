@@ -6,9 +6,8 @@ import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import "./components/single-products/MainProduct.scss";
-import Slides from "./components/single-products/Slides";
+import Slides from "./components/single-products/Slides"; //Do not delete line...it breaks slider
 import Slider from "react-slick";
-import Sanitizer13 from "./components/images/single product images/Hand Sanitizer 13oz-01.jpg"
 import Thumb from "./components/images/thumbnails/1 (1).jpg";
 
 
@@ -32,16 +31,16 @@ export default function SingleProduct({product}) {
                     ref={slider => (slider1 = slider)}
                     >
                     <div className="img1">
-                        <img src={Sanitizer13} alt="Test" />
+                        <img src={require(`./components/images/single product images/${product.id}-1.jpg`)} alt="Test" />
                     </div>
                     <div className="img1">
-                    <img src={Sanitizer13} alt="Test" />
+                    <img src={require(`./components/images/single product images/${product.id}-2.jpg`)} alt="Test" />
                     </div>
                     <div className="img1">
-                    <img src={Sanitizer13} alt="Test" />
+                    <img src={require(`./components/images/single product images/${product.id}-3.jpg`)} alt="Test" />
                     </div>
                     <div className="img1">
-                    <img src={Sanitizer13} alt="Test" />
+                    <img src={require(`./components/images/single product images/${product.id}-4.jpg`)} alt="Test" />
                     </div>
 
                     </Slider>
@@ -54,16 +53,16 @@ export default function SingleProduct({product}) {
                     className="Thumb-slider"
                     >
                     <div>
-                        <img src={Thumb} alt="test"/>
+                        <img src={require(`./components/images/thumbnails/${product.id}-1.jpg`)} alt="test"/>
                     </div>
                     <div>
-                    <img src={Thumb} alt="test"/>
+                    <img src={require(`./components/images/thumbnails/${product.id}-2.jpg`)} alt="test"/>
                     </div>
                     <div>
-                    <img src={Thumb} alt="test"/>
+                    <img src={require(`./components/images/thumbnails/${product.id}-3.jpg`)} alt="test"/>
                     </div>
                     <div>
-                    <img src={Thumb} alt="test"/>
+                    <img src={require(`./components/images/thumbnails/${product.id}-4.jpg`)} alt="test"/>
                     </div>
                     </Slider>
 
