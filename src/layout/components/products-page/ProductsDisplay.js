@@ -10,10 +10,12 @@ import XtraBleach from "../images/single product images/Bleach Extra Strength-01
 import Lavander from "../images/single product images/Bleach Lavender-01.jpg";
 import Lemon from "../images/single product images/Bleach Lemon-01.jpg";
 import {Link} from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 
 export default class ProductsDisplay extends Component {
     render() {
+        const {isOpen, onClose} = this.props;
         return (
             <div className="Products">
                 <h1>Our Products</h1>

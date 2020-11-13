@@ -1,25 +1,19 @@
 import './App.scss';
 import "bootstrap";
-import Landing from "./layout/Landing";
-import Products from "./layout/Products"
+import Products from "./layout/Products";
 import NewNav from "./layout/components/NewNav";
 import Nav from "./layout/components/Nav";
 import Footer from "./layout/components/Footer";
 import SingleProduct from './layout/SingleProduct';
+import Container from "./Container";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
-import ComingSoon from "./layout/ComingSoon";
-import About from "./layout/AboutPage";
 import ScrollButton from "./layout/components/ScrollTop";
-import Contact from "./layout/Contact";
-import ReactMap from "./layout/components/single-products/ReactMapbox";
 import StartingPoint from "./layout/components/StartingPoint";
 import React, { Component } from 'react';
-import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 export default class App extends Component {
   state ={
@@ -403,20 +397,16 @@ export default class App extends Component {
     return (
       <div className="App">
       <Router>
+        <div>
         <StartingPoint />
-        <NewNav />
-      <Switch>
-          <Route exact path="/" component={Landing} />
-          <Route exact path="/products" component={Products} />
-          <Route exact path="/single-product" component={Products} />
-          <Route exact path="/soon" component={ComingSoon} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/reactmap" component={ReactMap} />
+          <NewNav />
+          <Container />
+          <Switch>
           <Route path="/single-product/:id" render = {routerProps => this.renderProducts(routerProps)} />
-      </Switch>
-      <ScrollButton />
-      <Footer />
+          </Switch>
+          <ScrollButton />
+          <Footer />
+        </div>
       </Router>
     </div>
     )
