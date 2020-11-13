@@ -29,7 +29,7 @@ export default function Contact() {
         })
         thePost.then(
             //This is where the input would reset  
-            alert("Thank you, message has been submitted.")      
+            alert("Thank you, message has been submitted.")
         )
       }
 
