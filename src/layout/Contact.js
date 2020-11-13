@@ -28,8 +28,16 @@ export default function Contact() {
         text: description
         })
         thePost.then(
-            //This is where the input would reset
+            //This is where the input would reset  
+            alert("Thank you, message has been submitted.")      
         )
+      }
+
+      const handleReset = () => {
+          Array.from(document.querySelectorAll("inputs"));
+          this.setState({
+              setInputs: [{}]
+          })
       }
 
     return (
