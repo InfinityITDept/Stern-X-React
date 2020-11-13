@@ -18,7 +18,7 @@ export default function AboutMobile() {
             <h1 className="MobileTitle">Our Company</h1>
                 <div>
 
-                    <p className="p1">Stern-X was founded in 2020 in the sunny city of Miami,FL. We have since made a positive impact in the sanitary solutions industry by venturing into it during a time of scarcity of cleaning and disinfecting products. All while keeping a focus on our mission statement of offering the best cleaning solutions to our customers at affordable prices.</p>
+                    <p className="p1">Stern-X was founded in 2020 in the sunny city of Miami, FL. Since founded we have made a positive impact in the sanitary solutions industry by venturing into it during a time of scarcity of cleaning and disinfecting products. All while keeping a focus on our mission statement of offering the best cleaning solutions to our customers at affordable prices.</p>
                     <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}><div>{linkName}</div></a>
                     <p>{readMore && extraContent}</p>
 

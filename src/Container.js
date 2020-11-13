@@ -16,7 +16,7 @@ function Container({location}) {
         <TransitionGroup>
         <CSSTransition
           key={location.key}
-          timeout={{ enter: 500, exit: 300 }}
+          timeout={{ enter: 500, exit: 500 }}
           classNames={'fade'}
         >
             <Switch location={location}>
