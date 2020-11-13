@@ -1,10 +1,10 @@
-import React, { Component, useState } from 'react';
+import React, { Component, useState, setState } from 'react';
 import "./Contact.scss";
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Button from "react-bootstrap/Button";
 import axios from "axios";
-import { ThemeProvider } from 'react-bootstrap';
+
 
 
 export default function Contact() {
@@ -18,7 +18,7 @@ export default function Contact() {
         e.preventDefault()
         // post request goes here. 
         const {email,name,subject,description,phone} = inputs;
-        axios.post('/sendtome', {
+        const thePost = axios.post('/sendtome', {
         //make an object to be handled from req.body on the backend. 
         email,
         name,
@@ -26,7 +26,10 @@ export default function Contact() {
         phone,
         //change the name to represent text on the backend.
         text: description
-        }) 
+        })
+        thePost.then(
+            //This is where the input would reset
+        )
       }
 
     return (

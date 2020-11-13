@@ -28,7 +28,7 @@ export default class ProductsDisplay extends Component {
                         </div>
                         <Link to="/single-product/1">
                             <Button variant="warning" size="md">
-                            More Info
+                            Details
                             </Button>{' '}
                         </Link>
                     </div>
@@ -41,7 +41,7 @@ export default class ProductsDisplay extends Component {
                         </div>
                         <Link to="/single-product/2">
                             <Button variant="warning" size="md">
-                            More Info
+                            Details
                             </Button>{' '}
                         </Link>
                     </div>
@@ -54,7 +54,7 @@ export default class ProductsDisplay extends Component {
                         </div>
                         <Link to="/single-product/3">
                             <Button variant="warning" size="md">
-                            More Info
+                            Details
                             </Button>{' '}
                         </Link>
                     </div>
@@ -66,7 +66,7 @@ export default class ProductsDisplay extends Component {
                         </div>
                         <Link to="/single-product/4">
                             <Button variant="warning" size="md">
-                            More Info
+                            Details
                             </Button>{' '}
                         </Link>
                     </div>
@@ -82,7 +82,7 @@ export default class ProductsDisplay extends Component {
                     </div>
                 <Link to="/single-product/5">
                     <Button variant="warning" size="md">
-                    More Info
+                    Details
                     </Button>{' '}
                 </Link>
                 </div>
@@ -95,7 +95,7 @@ export default class ProductsDisplay extends Component {
                     </div>
                 <Link to="/single-product/6">
                     <Button variant="warning" size="md">
-                    More Info
+                    Details
                     </Button>{' '}
                 </Link>
                 </div>
@@ -108,7 +108,7 @@ export default class ProductsDisplay extends Component {
                     </div>
                 <Link to="/single-product/7">
                 <Button variant="warning" size="md">
-                    More Info
+                    Details
                     </Button>{' '}
                 </Link>
                 </div>
@@ -121,7 +121,7 @@ export default class ProductsDisplay extends Component {
                     </div>
                 <Link to="/single-product/8">
                 <Button variant="warning" size="md">
-                    More Info
+                    Details
                     </Button>{' '}
                 </Link>
                 </div>
