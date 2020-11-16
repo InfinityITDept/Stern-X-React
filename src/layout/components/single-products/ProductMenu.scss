@@ -1,3 +1,14 @@
 .Accordion-menu{
     margin-bottom: 3%;
+    ul{
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Accordion-menu{
+        ul{
+            text-align: left;
+        }
+    }
 }

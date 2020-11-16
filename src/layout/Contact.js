@@ -8,37 +8,46 @@ import axios from "axios";
 
 
 export default function Contact() {
-    const [inputs, setInputs] = useState({email: '', name: '', subject: '', description: '', phone: ''});
+    const initialState = {
+        email: '', name: '', subject: '', description: '', phone: ''
+    }
+
+    const [inputs, setInputs] = useState({...initialState});
 
     const handleChange = e => {
         const {name, value} = e.target
         setInputs(prev => ({...prev, [name]: value }))
       }
-      const handleSubmit = e => {
+
+    const clearState = () => {
+          setState({...initialState})
+      }
+
+    const handleSubmit = e => {
         e.preventDefault()
-        // post request goes here. 
         const {email,name,subject,description,phone} = inputs;
+        // post request goes here. 
         const thePost = axios.post('/sendtome', {
-        //make an object to be handled from req.body on the backend. 
-        email,
-        name,
-        subject,
-        phone,
-        //change the name to represent text on the backend.
-        text: description
-        })
+            //make an object to be handled from req.body on the backend. 
+            email,
+            name,
+            subject,
+            phone,
+            //change the name to represent text on the backend.
+            text: description
+            })
         thePost.then(
             //This is where the input would reset  
-            alert("Thank you, message has been submitted.")
+            handleReset()
+            
         )
       }
 
-      const handleReset = () => {
-          Array.from(document.querySelectorAll("inputs"));
-          this.setState({
-              setInputs: [{}]
-          })
-      }
+    const handleReset = () => {
+        Array.from(document.querySelectorAll("input")).forEach(
+          input => (input.value = "")
+        );
+      };
 
     return (
         <div className="Contact container">

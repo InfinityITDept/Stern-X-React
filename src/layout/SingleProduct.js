@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import "./components/single-products/MainProduct.scss";
-import Slides from "./components/single-products/Slides"; //Do not delete line...it breaks slider
+import Slides from "./components/single-products/Slides"; //Do not delete line...it oddly breaks slider
 import Slider from "react-slick";
 import Thumb from "./components/images/thumbnails/1 (1).jpg";
 
