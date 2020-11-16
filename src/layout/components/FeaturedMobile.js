@@ -38,7 +38,7 @@ export default function FeaturedMobile() {
             <p>{readMore && extraContent}</p>
             <Link to="/products">
             <Button className="Button" variant="warning">
-                View all products
+                View Products
             </Button>
             </Link>
       </div>
@@ -53,7 +53,7 @@ export default function FeaturedMobile() {
             <p>{readMore2 && extraContent2}</p>
             <Link to="/products">
             <Button className="Button" variant="warning">
-                View all products
+                View Products
             </Button>
             </Link>
       </div>

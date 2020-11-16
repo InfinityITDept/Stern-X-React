@@ -9,7 +9,7 @@ import axios from "axios";
 
 export default function Contact() {
     const initialState = {
-        email: '', name: '', subject: '', description: '', phone: ''
+        email: '', name: '', subject: '', description: '', phone: '', text: ""
     }
 
     const [inputs, setInputs] = useState({...initialState});
@@ -25,7 +25,7 @@ export default function Contact() {
 
     const handleSubmit = e => {
         e.preventDefault()
-        const {email,name,subject,description,phone} = inputs;
+        const {email,name,subject,description,phone, text} = inputs;
         // post request goes here. 
         const thePost = axios.post('/sendtome', {
             //make an object to be handled from req.body on the backend. 
