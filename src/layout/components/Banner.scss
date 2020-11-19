@@ -1,10 +1,44 @@
 .div-1{
     height: 600px;
-    background: rgb(183,245,249); 
-    background: radial-gradient(circle, rgba(183,245,249,1) 0%, rgba(183,245,249,1) 0%, rgba(97,227,233,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(160,238,242,1) 100%);
 }
-
-.div-2{
+ 
+.banner-product{
+    img{
+        margin: 0 auto;
+    }
+    .banner-logo-title{
+        img{
+            margin-top: -15px;
+        }
+        span{
+            font-size: 30px;
+            margin-left: 10px;
+        }
+    }
+    p{
+        font-size: 30px;
+        color: #EA7317;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    
+}
+.rib2{
+    position: absolute;
+    float: right;
+    right: 0;
+}
+ 
+.carousel-inner{
+    display: flex;
+}
+.carousel-item{
+    width: 52.5% !important;
+}
+ 
+ 
+/*.div-2{
     font-weight: 600;
     position: absolute;
     top: 100px;
@@ -22,7 +56,7 @@
         text-shadow: 1px 1px 1px #3182b1;
     }
 }
-
+ 
 .div-3{
     background-color:#3faca163;
     position: absolute;
@@ -58,7 +92,7 @@
         text-align: center;
     }
 }
-
+ 
 .div-5{
     background-color: #3faca163;
     position: absolute;
@@ -75,19 +109,21 @@
         margin-top: 63px;
         text-align: center;
     }
-}
-
-.carousel-inner{
-    margin-top: 5%;
-}
-
+}*/
+ 
 @media only screen and (max-width: 600px) {
+    .rib1{
+        display: none;
+    }
+    .rib2{
+        display: none;
+    }
     .div-1{
         height: 650px;
         background: rgb(183,245,249); 
         background: radial-gradient(circle, rgba(183,245,249,1) 0%, rgba(183,245,249,1) 0%, rgba(97,227,233,1) 100%);
     }
-
+ 
     .div-2{
         font-weight: 600;
         position: absolute;
