@@ -1,5 +1,5 @@
 .div-1{
-    height: 600px;
+    //height: 600px;
     background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(160,238,242,1) 100%);
 }
  
@@ -111,6 +111,31 @@
     }
 }*/
  
+@media only screen and (max-width: 1700px) {
+    .carousel-item{
+        margin-left: -4%;
+    }
+}
+
+@media only screen and (max-width: 1549px) {
+    .carousel-item{
+        margin: 0 auto !important;
+    }
+    .rib1, .rib2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .bannerbleach{
+        max-width: 110%;
+    }
+    .bannerdisp{
+        width: 80%;
+    }
+    
+}
+
 @media only screen and (max-width: 600px) {
     .rib1{
         display: none;
@@ -119,11 +144,44 @@
         display: none;
     }
     .div-1{
-        height: 650px;
+        height: 410px;
         background: rgb(183,245,249); 
         background: radial-gradient(circle, rgba(183,245,249,1) 0%, rgba(183,245,249,1) 0%, rgba(97,227,233,1) 100%);
     }
- 
+    .bannerhs{
+        //max-width: 210%;
+        padding-top: 30%;
+        padding-right: 7%;
+
+    }
+    .banner-logo-title{
+        display: none;
+        margin-left: 60%;
+        margin-top: 10%;
+    }
+    .soothing{
+        display: none;
+    }
+
+    .bannerdisp{
+        max-width: 200%;
+        padding-top: 20%;
+    }
+
+    .dispenser{
+        display: none;
+    }
+
+    .bannerbleach{
+        max-width: 185%;
+        padding-top: 40%;
+        padding-left: 5%;
+    }
+
+    .bleachp{
+        display: none;
+    }
+
     .div-2{
         font-weight: 600;
         position: absolute;

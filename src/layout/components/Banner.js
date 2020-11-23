@@ -17,24 +17,24 @@ export default class Banner extends Component {
                     
                     <div className="carousel-item active" data-interval="10000">
                         <div className="banner-product">
-                            <img src={BannerHS} className="d-block" alt="Banner Image" />
+                            <img src={BannerHS} className="d-block bannerhs img-fluid" alt="Banner Image" />
                             <div className="banner-logo-title"><img src={BannerLogo}/><span>HAND SANITIZER</span></div>
-                            <p>SOOTHING & MOISTURIZING</p>
+                            <p className="soothing">SOOTHING & MOISTURIZING</p>
                         </div>
                     </div>
  
                     <div className="carousel-item" data-interval="20000">
                         <div className="banner-product">
-                            <img src={BannerDisp} className="d-block" alt="Banner Image" />
-                            <p>CLEAN HANDS, SAVE LIVES</p>
+                            <img src={BannerDisp} className="d-block bannerdisp img-fluid" alt="Banner Image" />
+                            <p className="dispenser">CLEAN HANDS, SAVE LIVES</p>
                         </div>
                     </div>
  
                     <div className="carousel-item" data-interval="20000">
                         <div className="banner-product">
-                            <img src={BannerBleach} className="d-block" alt="Banner Image" />
+                            <img src={BannerBleach} className="d-block bannerbleach img-fluid" alt="Banner Image" />
                             <div className="banner-logo-title"><img src={BannerLogo}/><span>BLEACH</span></div>
-                            <p>CLEANS & DESINFECTS</p>
+                            <p className="bleachp">CLEANS & DESINFECTS</p>
                         </div>
                     </div>
  

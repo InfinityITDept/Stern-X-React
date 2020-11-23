@@ -12,7 +12,7 @@ export default class NewNav extends Component {
             <div className="NewNav">
                 <Navbar clasdName="Navbar-color" expand="lg">
                     <Navbar.Brand href="#home"><Link to="/" ><img src={Logo} alt="Logo" /></Link></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" className="burger"/>
                     <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="mr-auto">
                         <Link to="/" className="nav-link">Home</Link>

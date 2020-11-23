@@ -14,8 +14,12 @@ $dark-green: #285056;
 }
 
 @media only screen and (max-width: 600px) {
+    .burger{
+        margin-left: -50%;
+    }
     .mr-auto{
         margin-left: 37%;
+        max-width: 120%;
         .nav-link{
         color: $dark-green !important;
         }
