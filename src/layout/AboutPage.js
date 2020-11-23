@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./AboutPage.scss";
-import Placeholder from "./components/images/BannerPlaceholder-01.jpg";
+import Placeholder from "./components/images/factory.jpg";
 import AboutMobile from "../AboutMobile";
 
 export default class AboutPage extends Component {

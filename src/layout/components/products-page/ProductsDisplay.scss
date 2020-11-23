@@ -5,16 +5,15 @@
   display: flex;
   margin-top: 5%;
   margin-bottom: 5%;
+  justify-content: center;
 
   .Products-card {
-    margin-right: 2%;
+    margin-left: 15px;
+    margin-right: 15px;
 
     .Card-text{
       margin-left: 9%;
       margin-top: 3%;
-    }
-    img{
-      width: 105%;
     }
 
     Button{

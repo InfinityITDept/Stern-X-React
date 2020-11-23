@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from "react-bootstrap/Nav";
-import Logo from "./images/logo200x60.png";
+import Logo from "./images/logo.png";
 import "./NewNav.scss";
 import {Link} from "react-router-dom";
 

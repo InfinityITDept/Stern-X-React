@@ -383,6 +383,21 @@ export default class App extends Component {
         use1: "Pump liquid hand soap into dry hands. Rub hands together for at least 15 seconds. Rinse and clean dry thoroughly.",
         use2: "For external use only.",
         use3: "If product gets into eyes, rinse throughly with water."
+      },
+      {
+        id: 26,
+        title: "Liquid Hand Sanitizer 4oz",
+        description: "Our hand sanitizers are soothing & moisturizing gel/liquid solutions created to help reduce bacteria that can potentially cause disease when soap and water are not available. It is proven to kill 99.9% of most germs with no damage on skin, making it perfect for frequent use. Stern-X hand sanitizers are ideal for use in office settings, classrooms and or outdoor settings.",
+        fact1: "Soothing and Moisturizing Liquid.",
+        fact2: "Kills 99.99 percent of most common germs that may cause illness.",
+        fact3: "Refreshing scent.",
+        ingredient1: "Ethyl Alcohol 75% (Active ingredient)",
+        ingredient2: "Glycerin",
+        ingredient3: "Hydrogen Peroxide",
+        ingredient4: "Deionized Water",
+        use1: "Hand Sanitizer to help reduce bacteria on the skin if soap and water are not available.",
+        use2: "Place enough product on hands to cover all surfaces. Rub hands together until dry.",
+        use3: "For external use only. Keep out of eyes ears, and mouth."
       }
     ]
   }
