@@ -136,7 +136,25 @@
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) and (min-width: 500px){
+    .div-1{
+        height: 450px;
+    }
+    .bannerhs{
+        max-width: 100% !important;
+        margin-left: 0% !important;
+        padding-top: 10%;
+    }
+    .bannerdisp{
+        padding-top: 20%;
+        }
+        .bannerbleach{
+            max-width: 185%;
+            padding-top: 28%;
+        }
+}
+
+@media only screen and (max-width: 500px) {
     .carousel-item{
         width: 100% !important;
     }
@@ -147,37 +165,39 @@
         display: none;
     }
     .div-1{
-        height: 450px;
+        height: 490px;
         background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(160,238,242,1) 100%);
     }
     .bannerhs{
         max-width: 100% !important;
         margin-left: 0% !important;
-        padding-top: 6%;
+        padding-top: 20%;
 
     }
     .banner-logo-title{
         display: none;
         margin-left: 60%;
-        margin-top: 10%;
+        margin-top: 11%;
     }
     .soothing{
+        margin-top: 6%;
     }
 
     .bannerdisp{
-    padding-top: 5%;
+    padding-top: 20%;
     }
 
     .dispenser{
+        margin-top: 6%;
     }
 
     .bannerbleach{
         max-width: 185%;
-        padding-top: 9%;
+        padding-top: 28%;
     }
 
     .bleachp{
-
+        margin-top: 7%;
     }
 
     .div-2{
