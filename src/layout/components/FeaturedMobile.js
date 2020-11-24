@@ -1,8 +1,8 @@
 import React, {Component, useState} from 'react';
 import "./FeaturedMobile.scss";
 import {Link} from "react-router-dom";
-import Sanitizers from "./images/Sanitizers-01.jpg";
-import Bleach from "./images/Bleach-01.jpg";
+import Sanitizers from "./images/banner/hs.png";
+import Bleach from "./images/banner/bleach.png";
 import Button from "react-bootstrap/Button";
 
 

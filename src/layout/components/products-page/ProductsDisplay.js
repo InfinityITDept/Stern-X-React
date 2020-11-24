@@ -24,7 +24,7 @@ export default class ProductsDisplay extends Component {
 
 
                     <div className="Products-card">
-                        <img src={Sanitizer13} alt="Card image" />
+                        <img src={Sanitizer13} alt="Card image" className="img-fluid"/>
                         <div className="Card-text">
                             <h5>Hand Sanitizer Gel 13oz</h5>
                             <p>Stern-X&trade;</p>
@@ -37,7 +37,7 @@ export default class ProductsDisplay extends Component {
                     </div>
 
                     <div className="Products-card">
-                        <img src={Sanitizer4} alt="Card image" />
+                        <img src={Sanitizer4} alt="Card image" className="img-fluid" />
                         <div className="Card-text">
                             <h5>Hand Sanitizer Gel 4oz</h5>
                             <p>Stern-X&trade;</p>
@@ -50,7 +50,7 @@ export default class ProductsDisplay extends Component {
                     </div>
                 
                     <div className="Products-card">
-                        <img src={SanitizerLiq16} alt="Card image" />
+                        <img src={SanitizerLiq16} alt="Card image" className="img-fluid" />
                         <div className="Card-text">
                             <h5>Liquid Hand Sanitizer 16oz</h5>
                             <p>Stern-X&trade;</p>
@@ -62,7 +62,7 @@ export default class ProductsDisplay extends Component {
                         </Link>
                     </div>
                     <div className="Products-card">
-                        <img src={SanitizerLiq4} alt="Card image" />
+                        <img src={SanitizerLiq4} alt="Card image" className="img-fluid"/>
                         <div className="Card-text">
                             <h5>Liquid Hand Sanitizer 4oz</h5>
                             <p>Stern-X&trade;</p>
