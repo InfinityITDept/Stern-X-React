@@ -22,7 +22,21 @@ $dark-green: #285056;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+    .burger{
+        margin-left: -40%;
+    }
+    .mr-auto{
+        margin-left: 8%;
+        max-width: 120%;
+        .nav-link{
+        color: $dark-green !important;
+        width: 100%;
+        }
+    } 
+}
+
+@media only screen and (max-width: 700px) {
     .burger{
         margin-left: -50%;
     }

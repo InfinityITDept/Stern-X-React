@@ -91,6 +91,26 @@ $blue: #0ed2e9;
     .Footer-rights{}
 }
 
+@media only screen and (max-width: 1000px) {
+    .Footer{
+        .Footer-container{
+            .Footer-logo{
+                margin-left: 5%;
+                img{}
+            }
+        }
+        .Footer-column2{
+            padding-left: 5%;
+            .Footer-links{}
+        }
+        .Footer-column3{
+            padding-right: 8%;
+            .Footer-icons{}
+        }
+    }
+    .Footer-rights{}
+}
+
 @media only screen and (max-width: 600px) {
     .Footer{
         height: 500px;
@@ -103,7 +123,6 @@ $blue: #0ed2e9;
                 img{
                     margin-top: 12%;
                     width: 60%;
-                    margin-right: 20%;
                 }
             }
             .Footer-column2{
