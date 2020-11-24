@@ -126,6 +126,8 @@
     }
 }
 
+@media only screen and (max-width: 1000px) {}
+
 @media only screen and (max-width: 600px) {
     .Cards{
         display: inline;
@@ -135,34 +137,39 @@
         .Cards-container1{
             display: inline;
             margin-right: 0%;
+            width: 100%;
             .Cards-img-container{
                 margin-top: 4%;
-
+                width: 75%;
+                margin-left: 12%;
                 .hr1{
                     display: none;
                 }
                 .Cards-img{
                     max-width: 100%;
-                    margin-left: 7%;
+                    margin-left: 0%;
                 }
                 
             }
             .Cards-text-container{
-                max-width: 100%;
+                width: 100%;
                 text-align: center;
-                margin-left: 10%;
+                margin-left: 0%;
                 h1{
                     font-size: 30px;
                     margin-top: 4%;
                 }
                 p{
                     font-size: 20px;
+                    width: 75%;
+                    margin-left: 12%;
                 }
                 .hr2{
                     visibility: visible;
-                    width: 90%;
+                    width: 60%;
                     height: 3px;
                     background-color: #0ed2e9;
+                    margin-bottom: 10%;
                 }
             }
         }
@@ -170,34 +177,38 @@
         .Cards-container2{
             display: inline;
             margin-right: 3%;
+            width: 100%;
             .Cards-img-container{
                 margin-top: 4%;
-
+                width: 145%;
                 .hr1{
                     display: none;
                 }
                 .Cards-img{
-                    max-width: 70%;
-                    margin-left: 7%;
+                    max-width: 80%;
+                    margin-right: 24%;
                 }
                 
             }
             .Cards-text-container{
-                max-width: 90%;
+                width: 100%;
                 text-align: center;
-                margin-left: 10%;
+                margin-left: 0%;
                 h1{
                     font-size: 30px;
                     margin-top: 4%;
                 }
                 p{
                     font-size: 20px;
+                    width: 75%;
+                    margin-left: 12%;
                 }
                 .hr2{
                     visibility: visible;
-                    width: 80%;
+                    width: 60%;
                     height: 3px;
                     background-color: #0ed2e9;
+                    margin-bottom: 10%;
                 }
             }
         }
