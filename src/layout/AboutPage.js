@@ -8,7 +8,9 @@ export default class AboutPage extends Component {
         return (
             <div className="Aboutwrap">
                 <div className="AboutPage">
-                    <h1 className="About-title">Our Company</h1>
+                    <div className="text-center">
+                        <h1 className="About-title">Our Company</h1>
+                    </div>
                     <img src={Placeholder} alt="Banner" className="Placebanner"/>
                     <div className="AboutPage-container">
                         <div className="AboutPage-text">

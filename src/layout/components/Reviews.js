@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import "./Reviews.scss";
-import Placeholder from "./images/placeholder.jpg";
 import Headshot1 from "./images/Headshot1.jpg";
 import Headshot2 from "./images/Headshot2.jpg";
 import Headshot3 from "./images/Headshot3.jpg";

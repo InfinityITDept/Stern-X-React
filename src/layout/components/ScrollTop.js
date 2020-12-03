@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Button from "./images/up.png";
 import "./ScrollTop.scss";
 import {BsFillCaretUpFill} from "react-icons/bs";
 

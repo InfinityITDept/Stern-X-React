@@ -1,6 +1,5 @@
 import React, { Component, useState } from 'react'
 import "./FeaturedProducts.scss";
-import Placeholder from "./images/placeholder.jpg";
 import Sanitizers from "./images/hs-index.png";
 import Bleach from "./images/bleach_index.png";
 import Button from "react-bootstrap/Button";

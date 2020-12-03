@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Banner from "./components/Banner";
 import ProductsDisplay from "./components/products-page/ProductsDisplay";
 import ProductsQuote from "./components/products-page/ProductsQuote";
 

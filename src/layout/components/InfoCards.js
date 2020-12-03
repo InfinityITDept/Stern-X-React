@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "./InfoCards.scss";
-import Placeholder from "./images/placeholder.jpg";
 import Gloves from "./images/Gloves-01.jpg";
 import Hands from "./images/CleanHands-01.jpg";
 
