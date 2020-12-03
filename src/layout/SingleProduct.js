@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from "react-slick";
 import "./components/single-products/ProductMenu.scss";
 import Map from "./components/single-products/ReactMapbox";
 import "./components/single-products/MainProduct.scss";
@@ -6,10 +7,8 @@ import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import "./components/single-products/MainProduct.scss";
-import Slides from "./components/single-products/Slides"; //Do not delete line...it oddly breaks slider
-import Slider from "react-slick";
-import Thumb from "./components/images/thumbnails/1 (1).jpg";
-
+import "../../node_modules/slick-carousel/slick/slick.scss";
+import "../../node_modules/slick-carousel/slick/slick-theme.scss";
 
 export default function SingleProduct({product}) {
     const [nav1, setNav1] = React.useState(null)
@@ -31,16 +30,13 @@ export default function SingleProduct({product}) {
                     ref={slider => (slider1 = slider)}
                     >
                     <div className="img1">
-                        <img src={require(`./components/images/single product images/${product.id}-1.jpg`)} alt="Test" />
+                        <img src={require(`./components/images/single product images/571x500/${product.id}-1.jpg`)} alt="..." />
                     </div>
                     <div className="img1">
-                    <img src={require(`./components/images/single product images/${product.id}-2.jpg`)} alt="Test" />
+                        <img src={require(`./components/images/single product images/571x500/${product.id}-2.jpg`)} alt="..." />
                     </div>
                     <div className="img1">
-                    <img src={require(`./components/images/single product images/${product.id}-3.jpg`)} alt="Test" />
-                    </div>
-                    <div className="img1">
-                    <img src={require(`./components/images/single product images/${product.id}-4.jpg`)} alt="Test" />
+                        <img src={require(`./components/images/single product images/571x500/${product.id}-3.jpg`)} alt="..." />
                     </div>
 
                     </Slider>
@@ -53,16 +49,13 @@ export default function SingleProduct({product}) {
                     className="Thumb-slider"
                     >
                     <div>
-                        <img src={require(`./components/images/thumbnails/${product.id}-1.jpg`)} alt="test"/>
+                        <img src={require(`./components/images/thumbnails/${product.id}-1.jpg`)} alt="..."/>
                     </div>
                     <div>
-                    <img src={require(`./components/images/thumbnails/${product.id}-2.jpg`)} alt="test"/>
+                    <img src={require(`./components/images/thumbnails/${product.id}-2.jpg`)} alt="..."/>
                     </div>
                     <div>
-                    <img src={require(`./components/images/thumbnails/${product.id}-3.jpg`)} alt="test"/>
-                    </div>
-                    <div>
-                    <img src={require(`./components/images/thumbnails/${product.id}-4.jpg`)} alt="test"/>
+                    <img src={require(`./components/images/thumbnails/${product.id}-3.jpg`)} alt="..."/>
                     </div>
                     </Slider>
 
