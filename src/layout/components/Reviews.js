@@ -18,7 +18,7 @@ export default class Reviews extends Component {
                         <div className="Reviews-text-col">
                             <h1 className="Reviews-text-title">Hand Sanitizer</h1>
                             <hr className="Reviews-hr" />
-                            <p className="Reviews-text-paragraph">“Easy to use and gentle on my hands! I keep an individual bottle with me whenever I am on the go wherever I go.”-Alicia L.</p>
+                            <p className="Reviews-text-paragraph">“Easy to use and gentle on my hands! I keep an individual bottle with me whenever I am on the go.”-Alicia L.</p>
                         </div>
                     </div>
                 </div>
