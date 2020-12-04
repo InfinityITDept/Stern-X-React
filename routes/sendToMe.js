@@ -6,7 +6,7 @@ const nodemailer = require('nodemailer')
 const transport = {
     //all of the configuration for making a site send an email.
   
-    host: 'smtp.gmail.com',
+    host: 'smtp.ionos.com',
     port: 587,
     secure: false,
     auth: {
@@ -30,7 +30,7 @@ const transport = {
     //make mailable object
     const mail = {
       from: process.env.THE_EMAIL,
-      to: 'infinityitdepartment@gmail.com',
+      to: 'support@stern-x.com',
       subject: req.body.subject,
       text: `
       From: ${req.body.name} 

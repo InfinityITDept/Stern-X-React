@@ -6,7 +6,6 @@ import Button from "react-bootstrap/Button";
 import axios from "axios";
 
 
-
 export default function Contact() {
     const initialState = {
         email: '', name: '', subject: '', description: '', phone: '', text: ""

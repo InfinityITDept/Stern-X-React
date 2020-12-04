@@ -13,6 +13,7 @@ export default class Footer extends Component {
                 <div className="Footer-container">
                 <div className="Footer-logo">
                     <img src={Logo} alt="Logo" />
+
                 </div>
                 <div className="Footer-column2">
                     <div className="Footer-links">
@@ -29,6 +30,9 @@ export default class Footer extends Component {
                         <div className="Instagram" ><GrInstagram /></div>
                         <div className="Twitter" ><GrTwitter /></div>
                     </div>
+                        <p>Contact us:</p>
+                        <p>954-336-7571</p>
+                        <p>support@stern-x.com</p>
                 </div>
             </div>
             <div className="Footer-rights">
