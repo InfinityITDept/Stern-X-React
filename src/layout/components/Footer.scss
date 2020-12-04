@@ -5,177 +5,88 @@ $dark-green: #285056;
 $blue: #0ed2e9;
 
 .Footer{
-    height: 300px;
+    height: auto;
     color: $light-base;
     background-color: #acf1f5;
     color: black;
     .Footer-container{
         display: flex;
+        padding: 20px 10%;
+        justify-content: space-between;
         .Footer-logo{
-            margin-left: 20%;
-            img{
-                width: 115%;
-                margin-top: 42%;
-            }
+            margin-top: 15px;
         }
         .Footer-column2{
-            margin-top: 2%;
-            margin-left: 17%;
+            margin-top: 15px;
             h3{
                 margin-bottom: 30%;
             }
-            .Footer-links{
-                margin-top: 25%;
-                .home-link{
-                    text-decoration: none;
-                    color: black;
-                    display: block;
-                    margin-bottom: 15%;
-                }
-                .products-link{
-                    text-decoration: none;
-                    color: black;
-                    display: block;
-                    margin-bottom: 15%;
-                }
-                .faq-link{
-                    text-decoration: none;
-                    color: black;
-                    display: block;
-                }
-    
+            .Footer-links > a{
+                text-decoration: none;
+                color: black;
+                display: block;
             }
 
         }
         .Footer-column3{
-            margin-top: 2%;
-            margin-left: 17%;
             .Footer-icons{
-                display: flex;
-                margin-top: 16%;
                 font-size: 40px;
-                margin-left: 10%;
-                .Facebook{
-                    margin-right: 5%;
-                }
+                margin-bottom: 20px;
                 .Instagram{
-                    margin-left: 5%;
-                    margin-right: 5%;
-                }
-                .Twitter{
-                    margin-left: 7%;
+                    margin: 0 auto;
                 }
             }
         }
     }
     .Footer-rights{
-        margin-top: 2%;
+        margin-bottom: 0;
+        padding-bottom: 15px;
     }
-}
-
-@media only screen and (max-width: 1600px) {
-    .Footer{
-        .Footer-container{
-            .Footer-logo{
-                margin-left: 16%;
-                img{}
-            }
-        }
-        .Footer-column2{
-            .Footer-links{}
-        }
-        .Footer-column3{
-            .Footer-icons{}
-        }
-    }
-    .Footer-rights{}
-}
-
-@media only screen and (max-width: 1000px) {
-    .Footer{
-        .Footer-container{
-            .Footer-logo{
-                margin-left: 5%;
-                img{}
-            }
-        }
-        .Footer-column2{
-            padding-left: 5%;
-            .Footer-links{}
-        }
-        .Footer-column3{
-            padding-right: 8%;
-            .Footer-icons{}
-        }
-    }
-    .Footer-rights{}
 }
 
 @media only screen and (max-width: 600px) {
     .Footer{
-        height: 500px;
         color: $light-base;
         background-color: #acf1f5;
         color: black;
-        .Footer-container{
-            display: inline;
-            .Footer-logo{
-                img{
-                    margin-top: 12%;
-                    width: 60%;
-                }
+        .Footer-logo{
+            img{
+                margin-top: 12%;
+                width: 60%;
             }
-            .Footer-column2{
-                margin-top: 2%;
-                margin-left: 4%;
-                .Footer-links{
-                    margin-top: 5%;
-                    .home-link{
-                        text-decoration: none;
-                        color: black;
-                        display: block;
-                        margin-bottom: 5%;
-                    }
-                    .products-link{
-                        text-decoration: none;
-                        color: black;
-                        display: block;
-                        margin-bottom: 5%;
-                    }
-                    .faq-link{
-                        text-decoration: none;
-                        color: black;
-                        display: block;
-                        margin-bottom: 12%;
-                    }
-        
+        }
+        .Footer-column2{
+            .Footer-links{
+                .home-link{
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    margin-bottom: 5%;
+                }
+                .products-link{
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    margin-bottom: 5%;
+                }
+                .faq-link{
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    margin-bottom: 12%;
                 }
     
             }
-            .Footer-column3{
-                margin-top: 2%;
-                margin-left: 4%;
-                margin-bottom: 15%;
-                .Footer-icons{
-                    display: flex;
-                    margin-top: 5%;
-                    font-size: 40px;
-                    margin-left: 23%;
-                    .Facebook{
-                        margin-right: 5%;
-                    }
-                    .Instagram{
-                        margin-left: 5%;
-                        margin-right: 5%;
-                    }
-                    .Twitter{
-                        margin-left: 7%;
-                    }
-                }
+
+        }
+        .Footer-column3{
+            .Footer-icons{
+                display: flex;
+                font-size: 40px;
             }
         }
         .Footer-rights{
-            margin-top: 15%;
+            margin-top: 5%;
         }
     }
 }

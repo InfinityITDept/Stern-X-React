@@ -9,35 +9,35 @@ import {Link} from "react-router-dom";
 export default class Footer extends Component {
     render() {
         return (
-            <div className="Footer">
-                <div className="Footer-container">
-                <div className="Footer-logo">
-                    <img src={Logo} alt="Logo" />
+            <div className="Footer row">
+                <div className="col-12">
+
+                    <div className="row Footer-container">
+                        <div className="col-4 Footer-logo">
+                            <img src={Logo} className="" alt="Logo" />
+                        </div>
+                        <div className="col-4 Footer-column2">
+                            <div className="Footer-links">
+                                <Link to="/" className="home-link">HOME</Link>
+                                <Link to="/products" className="products-link">PRODUCTS</Link>
+                                <Link to="/contact" className="products-link">CONTACT US</Link>
+                            </div>
+                        </div>
+                        <div className="col-4 Footer-column3">
+                            <div className="Footer-icons">
+                                <a href="https://www.instagram.com/stern_xproducts" target="_blank" className="Instagram" ><GrInstagram /></a>
+                            </div>
+                            <div className="footer-contact">
+                                <p>954-336-7571</p>
+                                <p>support@stern-x.com</p>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-                <div className="Footer-column2">
-                    <div className="Footer-links">
-                        <Link to="/" className="home-link">HOME</Link>
-                        <Link to="/products" className="products-link">PRODUCTS</Link>
-                        <Link to="/about" className="products-link">ABOUT</Link>
-                        <Link to="/soon" className="faq-link">FAQ</Link>
-                    </div>
+                <div className="col-12 Footer-rights">
+                    <p>©  2020 Stern-X. All Rights Reserved. </p>
                 </div>
-                <div className="Footer-column3">
-                    <h3>Connect with us:</h3>
-                    <div className="Footer-icons">
-                        <div className="Facebook" ><GrFacebookOption /></div>
-                        <div className="Instagram" ><GrInstagram /></div>
-                        <div className="Twitter" ><GrTwitter /></div>
-                    </div>
-                        <p>Contact us:</p>
-                        <p>954-336-7571</p>
-                        <p>support@stern-x.com</p>
-                </div>
-            </div>
-            <div className="Footer-rights">
-                <p>©  2020 Stern-X. All Rights Reserved. </p>
-            </div>
             </div>
 
         )
