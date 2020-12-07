@@ -18,7 +18,6 @@ export default class Footer extends Component {
                         </div>
                         <div className="col-4 Footer-column2">
                             <div className="Footer-links">
-                                <Link to="/" className="home-link">HOME</Link>
                                 <Link to="/products" className="products-link">PRODUCTS</Link>
                                 <Link to="/contact" className="products-link">CONTACT US</Link>
                             </div>
@@ -28,8 +27,7 @@ export default class Footer extends Component {
                                 <a href="https://www.instagram.com/stern_xproducts" target="_blank" className="Instagram" ><GrInstagram /></a>
                             </div>
                             <div className="footer-contact">
-                                <p>954-336-7571</p>
-                                <p>support@stern-x.com</p>
+                                <p><i className="fa fa-phone phone"></i>+1 954-336-7571</p>
                             </div>
                         </div>
                     </div>

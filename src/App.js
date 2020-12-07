@@ -1,8 +1,8 @@
 import './App.scss';
 import "bootstrap";
+import "font-awesome/css/font-awesome.css";
 import Products from "./layout/Products";
-import NewNav from "./layout/components/NewNav";
-import Nav from "./layout/components/Nav";
+import Navigation from "./layout/components/Nav";
 import Footer from "./layout/components/Footer";
 import SingleProduct from './layout/SingleProduct';
 import Container from "./Container";
@@ -414,7 +414,7 @@ export default class App extends Component {
       <Router>
         <div>
         <StartingPoint />
-          <NewNav />
+          <Navigation />
           <Container />
           <Switch>
           <Route path="/single-product/:id" render = {routerProps => this.renderProducts(routerProps)} />

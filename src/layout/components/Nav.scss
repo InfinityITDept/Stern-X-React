@@ -1,26 +1,57 @@
-@import "../../App.scss";
+$dark-green: #285056;
 
-nav{
-    background-color: #6de5eb;
-    .navbar-nav > .nav-link{
-        color: black !important;
-        font-weight: 490;
-    }
-}
-
-@media only screen and (max-width: 600px) {
+.navbar-div{
     nav{
         background-color: #6de5eb;
-        .navbar-brand{
-            img{
-                width: 70%;
-                margin-right: 10%;
-            }
-        } 
         .navbar-nav > .nav-link{
             color: black !important;
             font-weight: 490;
-            margin-right: 50%;
         }
     }
+}
+.mr-auto{
+    margin-left: 72%;
+    font-size: 22px;
+}
+@media only screen and (max-width: 1600px) {
+    .mr-auto{
+        margin-left: 60%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .nav-link{
+        font-size: 20px;
+    }
+    .mr-auto{
+        margin-left: 50%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .burger{
+        margin-left: -40%;
+    }
+    .mr-auto{
+        margin-left: 8%;
+        max-width: 120%;
+        .nav-link{
+        color: $dark-green !important;
+        width: 100%;
+        }
+    } 
+}
+
+@media only screen and (max-width: 700px) {
+    .burger{
+        margin-left: -50%;
+    }
+    .mr-auto{
+        margin-left: 8%;
+        max-width: 120%;
+        .nav-link{
+        color: $dark-green !important;
+        width: 100%;
+        }
+    } 
 }
