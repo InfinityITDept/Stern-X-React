@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactMapboxGl, { Layer, Feature, Marker } from 'react-mapbox-gl';
-import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import "./ReactMapbox.scss";
 import Pointer from "../images/marker.png";

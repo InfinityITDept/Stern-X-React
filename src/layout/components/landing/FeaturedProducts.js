@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react'
 import "./FeaturedProducts.scss";
-import Sanitizers from "./images/hs-index.png";
-import Bleach from "./images/bleach_index.png";
+import Sanitizers from "../images/hs-index.png";
+import Bleach from "../images/bleach_index.png";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
 
@@ -13,7 +13,9 @@ export default class FeaturedProducts extends Component {
 
                         <div className="Featured-products-container">
                             <div className="featured-prod-img">
-                                <img className="img-fluid" src={Sanitizers} alt="test" />
+                                <Link to="/products">
+                                    <img className="img-fluid" src={Sanitizers} alt="Hand Sanitizers" />
+                                </Link>
                             </div>
                             <div className="Featured-text-col-right">
                                 <h2 className="Featured-title">Hand Sanitizers</h2>
@@ -37,13 +39,17 @@ export default class FeaturedProducts extends Component {
                                 </Link>
                             </div>
                             <div className="featured-prod-img2">
-                                <img className="img-fluid" src={Bleach} alt="test" />
+                                <Link to="/products">
+                                    <img className="img-fluid" src={Bleach} alt="Bleach Solutions" />
+                                </Link>
                             </div>
                         </div>
 
 
                         <div className="Featured-mobile1">
-                            <img className="Img-1" src={Sanitizers} alt="test" />
+                            <Link to="/products">
+                                <img className="Img-1" src={Sanitizers} alt="test" />
+                            </Link>
                             <div className="Featured-text-container">
                                 <div className="Featured-text-col-right">
                                     <h2 className="Featured-title">Hand Sanitizers</h2>
@@ -59,7 +65,9 @@ export default class FeaturedProducts extends Component {
                         </div>
 
                         <div className="Featured-mobile1">
-                            <img className="Img-1" src={Bleach} alt="test" />
+                            <Link to="/products">
+                                <img className="Img-1" src={Bleach} alt="test" />
+                            </Link>
                             <div className="Featured-text-container">
                                 <div className="Featured-text-col-right">
                                 <h2 className="Featured-title">Bleach Solutions</h2>

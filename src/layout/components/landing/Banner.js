@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import "./Banner.scss";
-import BannerRib1 from "./images/banner/rib1.png";
-import BannerRib2 from "./images/banner/rib2.png";
-import BannerHS from "./images/banner/hs.png";
-import BannerDisp from "./images/banner/dispenser.png";
-import BannerLogo from "./images/banner/logo100x40.png";
-import BannerBleach from "./images/banner/bleach.png";
+import BannerRib1 from "../images/banner/rib1.png";
+import BannerRib2 from "../images/banner/rib2.png";
+import BannerHS from "../images/banner/hs.png";
+import BannerDisp from "../images/banner/dispenser.png";
+import BannerLogo from "../images/banner/logo100x40.png";
+import BannerBleach from "../images/banner/bleach.png";
  
 export default class Banner extends Component {
     render() {
@@ -17,7 +17,7 @@ export default class Banner extends Component {
                     
                     <div className="carousel-item active" data-interval="10000">
                         <div className="banner-product">
-                            <img src={BannerHS} className="d-block bannerhs img-fluid" alt="Banner Image" />
+                            <img src={BannerHS} className="d-block bannerhs img-fluid" alt="Stern-x Hand Sanitizers" />
                             <div className="banner-logo-title"><img src={BannerLogo}/><span>HAND SANITIZER</span></div>
                             <p className="soothing">SOOTHING & MOISTURIZING</p>
                         </div>
@@ -25,15 +25,16 @@ export default class Banner extends Component {
  
                     <div className="carousel-item" data-interval="20000">
                         <div className="banner-product">
-                            <img src={BannerDisp} className="d-block bannerdisp img-fluid" alt="Banner Image" />
+                            <img src={BannerDisp} className="d-block bannerdisp img-fluid" alt="Stern-x Dispenser" />
+                            <div className="banner-logo-title"><img src={BannerLogo}/></div>
                             <p className="dispenser">CLEAN HANDS, SAVE LIVES</p>
                         </div>
                     </div>
  
                     <div className="carousel-item" data-interval="20000">
                         <div className="banner-product">
-                            <img src={BannerBleach} className="d-block bannerbleach img-fluid" alt="Banner Image" />
-                            <div className="banner-logo-title"><img src={BannerLogo}/><span>BLEACH</span></div>
+                            <img src={BannerBleach} className="d-block bannerbleach img-fluid" alt="Stern-x Bleach Solutions" />
+                            <div id="bleach-logo-title" className="banner-logo-title"><img src={BannerLogo}/><span>BLEACH</span></div>
                             <p className="bleachp">CLEANS & DESINFECTS</p>
                         </div>
                     </div>

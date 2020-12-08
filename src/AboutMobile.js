@@ -1,5 +1,6 @@
 import React, {Component, useState} from 'react';
 import "./AboutMobile.scss";
+import { Helmet } from 'react-helmet';
 
 
 export default function AboutMobile() {
@@ -15,6 +16,7 @@ export default function AboutMobile() {
 
     return (
         <div className="AboutMobile-container">
+            <Helmet><title>About Us</title></Helmet>
             <h1 className="MobileTitle">Our Company</h1>
                 <div>
 

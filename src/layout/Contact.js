@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Button from "react-bootstrap/Button";
 import axios from "axios";
 import emailjs from 'emailjs-com';
+import { Helmet } from 'react-helmet';
 
 
 export default function Contact() {
@@ -44,32 +45,31 @@ export default function Contact() {
 
     return (
         <div className="Contact container">
-        <h1>Contact us</h1>
-        <p>We are glad to answer your questions. Please fill out the form below and we will be in touch as soon as possible.</p>
+            <Helmet><title>Contact Us</title></Helmet>
+            <h1>Contact us</h1>
+            <p>+1 954-336-7571<br/>support@stern-x.com <br/><br/>Or please fill out the form below and we will be in touch as soon as possible. <br/>Stern-X will be glad to answer your questions.</p>
 
-        <form onSubmit={handleSubmit}>
-        <div className="form-row">
-            <div className="form-group col-md-6">
-            <label className="form-inline"for="inputEmail4">Name</label>
-            <input type="text" className="form-control" name="from_name"/>
-            </div>
-            <div className="form-group col-md-6">
-            <label className="form-inline">Phone #</label>
-            <input type="text" className="form-control" name="phone"/>
-            </div>
-        </div>
-        <div className="form-group">
-            <label className="form-inline">E-mail</label>
-            <input type="email" className="form-control" name="email"/>
-        </div>
-        <div className="form-group">
-            <label className="form-inline">Message</label>
-            <textarea type="text" rows="5" className="form-control" name="message"/>
-        </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
-        </form>
-
-
+            <form onSubmit={handleSubmit}>
+                <div className="form-row">
+                    <div className="form-group col-md-6">
+                    <label className="form-inline"for="inputEmail4">Name</label>
+                    <input type="text" className="form-control" name="from_name"/>
+                    </div>
+                    <div className="form-group col-md-6">
+                    <label className="form-inline">Phone #</label>
+                    <input type="text" className="form-control" name="phone"/>
+                    </div>
+                </div>
+                <div className="form-group">
+                    <label className="form-inline">E-mail</label>
+                    <input type="email" className="form-control" name="email"/>
+                </div>
+                <div className="form-group">
+                    <label className="form-inline">Message</label>
+                    <textarea type="text" rows="5" className="form-control" name="message"/>
+                </div>
+                <button type="submit" className="btn btn-primary">Submit</button>
+            </form>
     </div>
     )
 }

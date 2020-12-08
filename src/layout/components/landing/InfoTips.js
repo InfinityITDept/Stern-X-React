@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import "./Info2.scss";
-import Gloves from "./images/Gloves-01.jpg";
-import Hands from "./images/CleanHands-01.jpg";
+import "./InfoTips.scss";
+import Gloves from "../images/Gloves-01.jpg";
+import Hands from "../images/CleanHands-01.jpg";
 
 export default class InfoCards extends Component {
     render() {
@@ -11,10 +11,9 @@ export default class InfoCards extends Component {
 
                     <div className="Cards-container1">
                         <div className="Cards-img-container">
-                            <hr className="hr1"></hr>
-                            <img className="Cards-img" src={Gloves} alt="Placeholder" />
+                            <div className="hr1"></div>
+                            <img className="Cards-img img-fluid" src={Gloves} alt="Placeholder" />
                         </div>
-
                         <div className="Cards-text-container">
                             <h1 className="Cards-title">Help Flatten the</h1>
                             <h1 className="Second-title">Curve</h1>
@@ -27,8 +26,8 @@ export default class InfoCards extends Component {
 
                     <div className="Cards-container2">
                         <div className="Cards-img-container">
-                        <hr className="hr1"></hr>
-                            <img className="Cards-img" src={Hands} alt="Placeholder" />
+                        <div className="hr1"></div>
+                            <img className="Cards-img img-fluid" src={Hands} alt="Placeholder" />
                         </div>
 
                         <div className="Cards-text-container">

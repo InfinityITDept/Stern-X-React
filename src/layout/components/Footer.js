@@ -13,16 +13,18 @@ export default class Footer extends Component {
                 <div className="col-12">
 
                     <div className="row Footer-container">
-                        <div className="col-4 Footer-logo">
-                            <img src={Logo} className="" alt="Logo" />
+                        <div className="col-xs-12 col-lg-4 Footer-logo">
+                            <Link to="/">
+                                <img src={Logo} className="" alt="Logo" />
+                            </Link>
                         </div>
-                        <div className="col-4 Footer-column2">
+                        <div className="col-xs-12 col-lg-4 Footer-column2">
                             <div className="Footer-links">
                                 <Link to="/products" className="products-link">PRODUCTS</Link>
                                 <Link to="/contact" className="products-link">CONTACT US</Link>
                             </div>
                         </div>
-                        <div className="col-4 Footer-column3">
+                        <div className="col-xs-12 col-lg-4 Footer-column3">
                             <div className="Footer-icons">
                                 <a href="https://www.instagram.com/stern_xproducts" target="_blank" className="Instagram" ><GrInstagram /></a>
                             </div>

@@ -1,8 +1,8 @@
 import React, {Component, useState} from 'react';
 import "./FeaturedMobile.scss";
 import {Link} from "react-router-dom";
-import Sanitizers from "./images/banner/hs.png";
-import Bleach from "./images/banner/bleach.png";
+import Sanitizers from "../images/banner/hs.png";
+import Bleach from "../images/banner/bleach.png";
 import Button from "react-bootstrap/Button";
 
 
@@ -30,7 +30,9 @@ export default function FeaturedMobile() {
     <div className="Mobile-container">
       <h1 className="MobileTitle">Featured Products</h1>
       <div>
-            <img className="Img-1" src={Sanitizers} alt="test" />
+          <Link to="/products">
+            <img className="Img-1" src={Sanitizers} alt="Hand Sanitizers" />
+          </Link>
             <h1>Hand Sanitizers</h1>
             <hr></hr>
             <p className="p1">Our hand sanitizers are soothing & moisturizing gel/liquid solutions created to help reduce bacteria that can potentially cause disease.</p>
@@ -45,17 +47,19 @@ export default function FeaturedMobile() {
 
 
       <div>
-            <img className="Img-1" src={Bleach} alt="test" />
+          <Link to="/products">
+            <img className="Img-1" src={Bleach} alt="Bleach Solutions" />
+          </Link>
             <h1>Bleach Solutions</h1>
             <hr></hr>
             <p>The Stern-X Bleach solution is ideal for use on clothing as well as cleaning and protecting surfaces.</p>
             <a className="read-more-link" onClick={()=>{setReadMore2(!readMore2)}}><div>{linkName2}</div></a>
             <p>{readMore2 && extraContent2}</p>
-            <Link to="/products">
+          <Link to="/products">
             <Button className="Button" variant="warning">
                 View Products
             </Button>
-            </Link>
+          </Link>
       </div>
 
 

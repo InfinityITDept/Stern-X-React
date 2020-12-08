@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import Banner from "./components/Banner";
-import Cards from "./components/InfoCards";
-import FeaturedProducts from "./components/FeaturedProducts";
-import About from "./components/About";
-import Reviews from "./components/Reviews";
-import Cards2 from "./components/Info2";
-import FeaturedMobile from './components/FeaturedMobile';
+import Banner from "./components/landing/Banner";
+import FeaturedProducts from "./components/landing/FeaturedProducts";
+import Reviews from "./components/landing/Reviews";
+import InfoTips from "./components/landing/InfoTips";
+import FeaturedMobile from './components/landing/FeaturedMobile';
 
 export default class Landing extends Component {
     render() {
@@ -13,7 +11,7 @@ export default class Landing extends Component {
             <div className="container-fluid">
                 <div className="row">
                     <Banner />
-                    <Cards2 />
+                    <InfoTips />
                     <FeaturedProducts />
                     <FeaturedMobile />
                     <Reviews />

@@ -1,0 +1,137 @@
+.Cards{
+    margin: 5%;
+
+    .Cards-container1, .Cards-container2{
+        width: 50%;
+        float: left;
+        .Cards-img-container{
+            width: 50%;
+            float: left;
+            margin-top: 4%;
+            .hr1{
+                width: 146%;
+                height: 1.9px;
+                margin: 17px 0 10px 30%;
+                background-color: #0ed2e9;
+            }
+            .Cards-img{
+                width: 40%;
+            }
+        }
+        .Cards-text-container{
+            width: 50%;
+            float: left;
+            margin-top: 1%;
+            text-align: left;
+            margin-left: -10%;
+            .hr2{
+                visibility: hidden;
+            }
+            h1{
+                font-size: 30px;
+            }
+            p {
+                margin-top: -20px;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .Cards-container1{
+        .Cards-img-container > .hr1{
+            .Cards-img{
+                max-width: 40%;
+            }
+        }
+        
+    }
+
+    .Cards-container2{
+        .Cards-img-container{
+            margin-left: -5%;
+            p {
+                text-align: justify;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .Cards-container1{
+        .Cards-img-container{
+            .Cards-img{
+                width: 80%;
+            }
+        }
+        .Cards-text-container{
+            h1{
+                font-size: 24px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .Cards-container2{
+        .Cards-img-container{
+            .Cards-img{
+                width: 80%
+            }
+        }
+        .Cards-text-container{
+            h1{
+                font-size: 24px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .Cards{
+        margin: 0 !important;
+    
+    
+        .Cards-container1, .Cards-container2{
+            margin-top: 5%;
+            width: 100%;
+            display: inline;
+            .Cards-img-container{
+                float: none;
+                margin: 0 auto;
+                width: 60% !important;
+               .hr1{
+                    display: none;
+               }
+                .Cards-img{
+                    width: 100% !important;
+                    margin-left: 0% !important;
+                }
+            }
+            .Cards-text-container{
+                width: 100%;
+                text-align: center;
+                margin-left: 0%;
+                
+                h1{
+                    font-size: 30px;
+                    margin-top: 4%;
+                }
+                p{
+                    font-size: 20px;
+                    width: 75%;
+                    margin-left: 12%;
+                }
+                .hr2{
+                    visibility: visible;
+                    width: 60%;
+                    height: 3px;
+                    background-color: #0ed2e9;
+                    margin-bottom: 10%;
+                }
+            }
+        }
+    }
+}

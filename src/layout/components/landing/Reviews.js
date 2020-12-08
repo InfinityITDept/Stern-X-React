@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import "./Reviews.scss";
-import Headshot1 from "./images/Headshot1.jpg";
-import Headshot2 from "./images/Headshot2.jpg";
-import Headshot3 from "./images/Headshot3.jpg";
+import Headshot1 from "../images/Headshot1.jpg";
+import Headshot2 from "../images/Headshot2.jpg";
+import Headshot3 from "../images/Headshot3.jpg";
 
 export default class Reviews extends Component {
     render() {
