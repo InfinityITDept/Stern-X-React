@@ -28,9 +28,6 @@ export default class Footer extends Component {
                             <div className="Footer-icons">
                                 <a href="https://www.instagram.com/stern_xproducts" target="_blank" className="Instagram" ><GrInstagram /></a>
                             </div>
-                            <div className="footer-contact">
-                                <p><i className="fa fa-phone phone"></i>+1 954-336-7571</p>
-                            </div>
                         </div>
                     </div>
 

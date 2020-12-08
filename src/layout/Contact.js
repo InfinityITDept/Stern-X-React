@@ -47,7 +47,7 @@ export default function Contact() {
         <div className="Contact container">
             <Helmet><title>Contact Us</title></Helmet>
             <h1>Contact us</h1>
-            <p>+1 954-336-7571<br/>support@stern-x.com <br/><br/>Or please fill out the form below and we will be in touch as soon as possible. <br/>Stern-X will be glad to answer your questions.</p>
+            <p>support@stern-x.com <br/><br/>Or please fill out the form below and we will be in touch as soon as possible. <br/>Stern-X will be glad to answer your questions.</p>
 
             <form onSubmit={handleSubmit}>
                 <div className="form-row">
