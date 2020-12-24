@@ -100,10 +100,10 @@ export default class Products extends Component {
                     </div>
                     <div className="Products-card">
                         <Link to="/single-product/19">
-                            <img src={Lemon} alt="Hand Sanitizer Gel 13oz" className="img-fluid"/>
+                            <img src={Lemon} alt="Lemon Regular Strength Bleach" className="img-fluid"/>
                         </Link>
                         <div className="Card-text">
-                            <h5>Hand Sanitizer Gel 13oz</h5>
+                            <h5>Lemon Regular Strength Bleach</h5>
                             <p>Stern-X&trade;</p>
                         </div>
                         <Link to="/single-product/19">
@@ -114,10 +114,10 @@ export default class Products extends Component {
                     </div>
                     <div className="Products-card">
                         <Link to="/single-product/17">
-                            <img src={RegBleach} alt="Hand Sanitizer Gel 13oz" className="img-fluid"/>
+                            <img src={RegBleach} alt="Regular Strength Bleach" className="img-fluid"/>
                         </Link>
                         <div className="Card-text">
-                            <h5>Hand Sanitizer Gel 13oz</h5>
+                            <h5>Regular Strength Bleach</h5>
                             <p>Stern-X&trade;</p>
                         </div>
                         <Link to="/single-product/17">
@@ -128,10 +128,10 @@ export default class Products extends Component {
                     </div>
                     <div className="Products-card">
                         <Link to="/single-product/20">
-                            <img src={Lavander} alt="Hand Sanitizer Gel 13oz" className="img-fluid"/>
+                            <img src={Lavander} alt="Lavender Regular Strength Bleach" className="img-fluid"/>
                         </Link>
                         <div className="Card-text">
-                            <h5>Hand Sanitizer Gel 13oz</h5>
+                            <h5>Lavender Regular Strength Bleach</h5>
                             <p>Stern-X&trade;</p>
                         </div>
                         <Link to="/single-product/20">
